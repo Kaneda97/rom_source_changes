@@ -1,8 +1,8 @@
 {
   "rom_id": "yaap",
   "branch": "sixteen",
-  "generated_at": "2025-12-07T01:28:46.386799+00:00",
-  "since_date": "2025-09-08",
+  "generated_at": "2025-12-08T01:22:23.130834+00:00",
+  "since_date": "2025-09-09",
   "total_projects": 85,
   "total_commits": 386,
   "projects": [
@@ -11,8 +11,16 @@
       "path": "frameworks/base",
       "repo_url": "https://github.com/yaap/frameworks_base",
       "remote": "yaap",
-      "commit_count": 65,
+      "commit_count": 66,
       "commits": [
+        {
+          "sha": "a612c7f5b5",
+          "message": "SystemUI: Adapt luminanace and chroma factors to A16/QPR1 [1/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Dec 7 12:31:38 2025 +0200",
+          "timestamp": 1765103498,
+          "url": "https://github.com/yaap/frameworks_base/commit/a612c7f5b5"
+        },
         {
           "sha": "07a34833ed",
           "message": "BrightnessSlider: Adjust brightness icon size and corner radius",
@@ -1320,7 +1328,7 @@
       "path": "vendor/lindroid",
       "repo_url": "https://github.com/yaap/vendor_lindroid",
       "remote": "yaap",
-      "commit_count": 22,
+      "commit_count": 21,
       "commits": [
         {
           "sha": "44bf2ae",
@@ -1489,14 +1497,6 @@
           "date": "Tue Sep 9 12:38:55 2025 -0400",
           "timestamp": 1757435935,
           "url": "https://github.com/yaap/vendor_lindroid/commit/b6baf53"
-        },
-        {
-          "sha": "cada0d4",
-          "message": "lxc/template: add audio workaround",
-          "author": "John Galt",
-          "date": "Mon Sep 8 08:42:18 2025 -0400",
-          "timestamp": 1757335338,
-          "url": "https://github.com/yaap/vendor_lindroid/commit/cada0d4"
         }
       ]
     },
@@ -1505,7 +1505,7 @@
       "path": "external/arm-optimized-routines",
       "repo_url": "https://github.com/yaap/external_arm-optimized-routines",
       "remote": "yaap",
-      "commit_count": 16,
+      "commit_count": 15,
       "commits": [
         {
           "sha": "3f2dace",
@@ -1626,14 +1626,6 @@
           "date": "Tue Sep 16 09:22:57 2025 +0000",
           "timestamp": 1758014577,
           "url": "https://github.com/yaap/external_arm-optimized-routines/commit/d07cb7c"
-        },
-        {
-          "sha": "1aad38d",
-          "message": "math: Remove WANT_SIMD_EXCEPT",
-          "author": "Dylan Fleming",
-          "date": "Mon Sep 8 08:54:09 2025 +0000",
-          "timestamp": 1757321649,
-          "url": "https://github.com/yaap/external_arm-optimized-routines/commit/1aad38d"
         }
       ]
     },
@@ -2598,6 +2590,39 @@
       ]
     },
     {
+      "name": "frameworks_libs_systemui",
+      "path": "frameworks/libs/systemui",
+      "repo_url": "https://github.com/yaap/frameworks_libs_systemui",
+      "remote": "yaap",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "5af43db",
+          "message": "monet: Adapt luminanace and chroma factors to A16/QPR1 [2/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Sun Dec 7 12:31:47 2025 +0200",
+          "timestamp": 1765103507,
+          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/5af43db"
+        },
+        {
+          "sha": "5e7ac1d",
+          "message": "fixup/reapply: [HACK]: iconloader: force monochrome icons on themed icons",
+          "author": "John Galt",
+          "date": "Fri Dec 5 17:07:48 2025 -0500",
+          "timestamp": 1764972468,
+          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/5e7ac1d"
+        },
+        {
+          "sha": "a5c4141",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 15:18:49 2025 +0200",
+          "timestamp": 1763039929,
+          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/a5c4141"
+        }
+      ]
+    },
+    {
       "name": "frameworks_av",
       "path": "frameworks/av",
       "repo_url": "https://github.com/yaap/frameworks_av",
@@ -2900,31 +2925,6 @@
           "date": "Fri Sep 12 00:43:21 2025 +0300",
           "timestamp": 1757627001,
           "url": "https://github.com/yaap/art/commit/75bfd780"
-        }
-      ]
-    },
-    {
-      "name": "frameworks_libs_systemui",
-      "path": "frameworks/libs/systemui",
-      "repo_url": "https://github.com/yaap/frameworks_libs_systemui",
-      "remote": "yaap",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "5e7ac1d",
-          "message": "fixup/reapply: [HACK]: iconloader: force monochrome icons on themed icons",
-          "author": "John Galt",
-          "date": "Fri Dec 5 17:07:48 2025 -0500",
-          "timestamp": 1764972468,
-          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/5e7ac1d"
-        },
-        {
-          "sha": "a5c4141",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Nov 13 15:18:49 2025 +0200",
-          "timestamp": 1763039929,
-          "url": "https://github.com/yaap/frameworks_libs_systemui/commit/a5c4141"
         }
       ]
     },
@@ -3622,6 +3622,23 @@
       ]
     },
     {
+      "name": "packages_providers_TelephonyProvider",
+      "path": "packages/providers/TelephonyProvider",
+      "repo_url": "https://github.com/yaap/packages_providers_TelephonyProvider",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f4257d4",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:03:56 2025 +0200",
+          "timestamp": 1763064236,
+          "url": "https://github.com/yaap/packages_providers_TelephonyProvider/commit/f4257d4"
+        }
+      ]
+    },
+    {
       "name": "packages_services_DeviceAsWebcam",
       "path": "packages/services/DeviceAsWebcam",
       "repo_url": "https://github.com/yaap/packages_services_DeviceAsWebcam",
@@ -3652,23 +3669,6 @@
           "date": "Thu Nov 13 22:04:06 2025 +0200",
           "timestamp": 1763064246,
           "url": "https://github.com/yaap/packages_services_Iwlan/commit/450527d"
-        }
-      ]
-    },
-    {
-      "name": "packages_providers_TelephonyProvider",
-      "path": "packages/providers/TelephonyProvider",
-      "repo_url": "https://github.com/yaap/packages_providers_TelephonyProvider",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f4257d4",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Nov 13 22:03:56 2025 +0200",
-          "timestamp": 1763064236,
-          "url": "https://github.com/yaap/packages_providers_TelephonyProvider/commit/f4257d4"
         }
       ]
     },
@@ -3707,23 +3707,6 @@
       ]
     },
     {
-      "name": "system_memory_libmeminfo",
-      "path": "system/memory/libmeminfo",
-      "repo_url": "https://github.com/yaap/system_memory_libmeminfo",
-      "remote": "yaap",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "f2cc388",
-          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Nov 13 22:22:32 2025 +0200",
-          "timestamp": 1763065352,
-          "url": "https://github.com/yaap/system_memory_libmeminfo/commit/f2cc388"
-        }
-      ]
-    },
-    {
       "name": "system_media",
       "path": "system/media",
       "repo_url": "https://github.com/yaap/system_media",
@@ -3737,6 +3720,23 @@
           "date": "Thu Nov 13 22:22:30 2025 +0200",
           "timestamp": 1763065350,
           "url": "https://github.com/yaap/system_media/commit/a7f14fd"
+        }
+      ]
+    },
+    {
+      "name": "system_memory_libmeminfo",
+      "path": "system/memory/libmeminfo",
+      "repo_url": "https://github.com/yaap/system_memory_libmeminfo",
+      "remote": "yaap",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "f2cc388",
+          "message": "Merge tag 'android-16.0.0_r3' into staging/sixteen-android-16.0.0_r3",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 13 22:22:32 2025 +0200",
+          "timestamp": 1763065352,
+          "url": "https://github.com/yaap/system_memory_libmeminfo/commit/f2cc388"
         }
       ]
     },

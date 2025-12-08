@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "sixteen",
-  "generated_at": "2025-12-07T01:29:50.269999+00:00",
-  "since_date": "2025-09-08",
+  "generated_at": "2025-12-08T01:23:27.271836+00:00",
+  "since_date": "2025-09-09",
   "total_projects": 90,
-  "total_commits": 807,
+  "total_commits": 803,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -3086,7 +3086,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "lineageos",
-      "commit_count": 46,
+      "commit_count": 45,
       "commits": [
         {
           "sha": "dd78185",
@@ -3447,14 +3447,6 @@
           "date": "Mon Sep 8 18:29:41 2025 -0700",
           "timestamp": 1757381381,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/f1edc4c"
-        },
-        {
-          "sha": "d49a59f",
-          "message": "QRS SePolicy Changes For QLAS Integration",
-          "author": "auniyal",
-          "date": "Mon Sep 8 13:17:21 2025 +0530",
-          "timestamp": 1757317641,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d49a59f"
         }
       ]
     },
@@ -3463,7 +3455,7 @@
       "path": "vendor/lineage",
       "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_lineage",
       "remote": "github",
-      "commit_count": 45,
+      "commit_count": 44,
       "commits": [
         {
           "sha": "036e39b",
@@ -3816,14 +3808,6 @@
           "date": "Tue Sep 9 10:00:51 2025 +0200",
           "timestamp": 1757404851,
           "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/e9f9f39"
-        },
-        {
-          "sha": "165ebd3",
-          "message": "apns: Add BICS",
-          "author": "dianlujitao",
-          "date": "Mon Sep 8 06:10:06 2025 +0000",
-          "timestamp": 1757311806,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/165ebd3"
         }
       ]
     },
@@ -5527,63 +5511,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8650/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "lineageos",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "5f520e7",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:49 2025 +0200",
-          "timestamp": 1762608289,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
-        },
-        {
-          "sha": "0c843bc",
-          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 26 01:33:25 2025 -0700",
-          "timestamp": 1761467605,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
-        },
-        {
-          "sha": "da7cc67",
-          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Oct 7 14:34:38 2025 -0700",
-          "timestamp": 1759872878,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
-        },
-        {
-          "sha": "ff41e63",
-          "message": "msm: ipa3: Use read memory barrier before reading events",
-          "author": "Chaitanya Pratapa",
-          "date": "Mon Sep 15 22:10:59 2025 -0700",
-          "timestamp": 1757999459,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
-        },
-        {
-          "sha": "2e2889d",
-          "message": "Merge 29d1fd0d9800b65fedb65455eda71d6792ca02bd on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 10 11:29:02 2025 -0700",
-          "timestamp": 1757528942,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/2e2889d"
-        },
-        {
-          "sha": "c2ca91b",
-          "message": "Merge \"msm: ipa: Enable debug logging support for NCM and integrate debugfs\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 04:54:56 2025 -0700",
-          "timestamp": 1757332496,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/c2ca91b"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth",
@@ -5739,51 +5666,51 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/display",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
       "remote": "lineageos",
       "commit_count": 5,
       "commits": [
         {
-          "sha": "7cbc3cb",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "sha": "5f520e7",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
           "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:21 2025 +0200",
-          "timestamp": 1762607781,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+          "date": "Sat Nov 8 15:24:49 2025 +0200",
+          "timestamp": 1762608289,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
         },
         {
-          "sha": "7ac4077",
-          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "sha": "0c843bc",
+          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
           "author": "Linux Build Service Account",
-          "date": "Sun Oct 12 23:41:34 2025 -0700",
-          "timestamp": 1760337694,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+          "date": "Sun Oct 26 01:33:25 2025 -0700",
+          "timestamp": 1761467605,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
         },
         {
-          "sha": "bb1ed10",
-          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "sha": "da7cc67",
+          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
           "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:54:17 2025 -0700",
-          "timestamp": 1758869657,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+          "date": "Tue Oct 7 14:34:38 2025 -0700",
+          "timestamp": 1759872878,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
         },
         {
-          "sha": "8725d4e",
-          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "sha": "ff41e63",
+          "message": "msm: ipa3: Use read memory barrier before reading events",
+          "author": "Chaitanya Pratapa",
+          "date": "Mon Sep 15 22:10:59 2025 -0700",
+          "timestamp": 1757999459,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
+        },
+        {
+          "sha": "2e2889d",
+          "message": "Merge 29d1fd0d9800b65fedb65455eda71d6792ca02bd on remote branch",
           "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:13:47 2025 -0700",
-          "timestamp": 1757906027,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
-        },
-        {
-          "sha": "8d5c652",
-          "message": "Merge \"snapallocext: Add SnapAlloc Extension AIDL\"",
-          "author": "QCTECMDR Service",
-          "date": "Mon Sep 8 16:46:11 2025 -0700",
-          "timestamp": 1757375171,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8d5c652"
+          "date": "Wed Sep 10 11:29:02 2025 -0700",
+          "timestamp": 1757528942,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/2e2889d"
         }
       ]
     },
@@ -6005,6 +5932,47 @@
           "date": "Mon Sep 15 06:01:33 2025 -0700",
           "timestamp": 1757941293,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/03a5ad8"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/display",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+      "remote": "lineageos",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "7cbc3cb",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:21 2025 +0200",
+          "timestamp": 1762607781,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7cbc3cb"
+        },
+        {
+          "sha": "7ac4077",
+          "message": "Merge 8d5c652f5bd330e138ed4a0dc7b071cfe027c63d on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 12 23:41:34 2025 -0700",
+          "timestamp": 1760337694,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/7ac4077"
+        },
+        {
+          "sha": "bb1ed10",
+          "message": "Merge 8c0fe643a0d3e44289f97b7dbb9d78e320084cb4 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:54:17 2025 -0700",
+          "timestamp": 1758869657,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/bb1ed10"
+        },
+        {
+          "sha": "8725d4e",
+          "message": "Merge 6988b030ae0b15b03292fe6f0ef9825613d087e5 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:13:47 2025 -0700",
+          "timestamp": 1757906027,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commit/8725d4e"
         }
       ]
     },
@@ -6306,39 +6274,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_frameworks_native",
-      "path": "frameworks/native",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_native",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "8bf7e82bd",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:14:56 2025 +0545",
-          "timestamp": 1760160596,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/8bf7e82bd"
-        },
-        {
-          "sha": "07088f3b8",
-          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
-          "author": "Dennis Kiilerich",
-          "date": "Sat Oct 11 10:37:22 2025 +0545",
-          "timestamp": 1760158342,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/07088f3b8"
-        },
-        {
-          "sha": "7afb5f7ec",
-          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
-          "author": "Dennis Kiilerich",
-          "date": "Sat Oct 11 10:37:22 2025 +0545",
-          "timestamp": 1760158342,
-          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/7afb5f7ec"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_apps_Updater",
       "path": "packages/apps/Updater",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_apps_Updater",
@@ -6368,6 +6303,39 @@
           "date": "Wed Nov 5 17:14:55 2025 +0545",
           "timestamp": 1762342195,
           "url": "https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/88e496a"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_frameworks_native",
+      "path": "frameworks/native",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_frameworks_native",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "8bf7e82bd",
+          "message": "Merge branch 'android16-security-release' into sixteen",
+          "author": "hridaya",
+          "date": "Sat Oct 11 11:14:56 2025 +0545",
+          "timestamp": 1760160596,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/8bf7e82bd"
+        },
+        {
+          "sha": "07088f3b8",
+          "message": "Mark \"disable_synthetic_vsync_for_performance\" flag as exported",
+          "author": "Dennis Kiilerich",
+          "date": "Sat Oct 11 10:37:22 2025 +0545",
+          "timestamp": 1760158342,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/07088f3b8"
+        },
+        {
+          "sha": "7afb5f7ec",
+          "message": "Turn off synthetic VSYNC when adjusting thread scheduling for performance",
+          "author": "Dennis Kiilerich",
+          "date": "Sat Oct 11 10:37:22 2025 +0545",
+          "timestamp": 1760158342,
+          "url": "https://github.com/PixelOS-AOSP/android_frameworks_native/commit/7afb5f7ec"
         }
       ]
     },
@@ -7052,23 +7020,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_build_soong",
-      "path": "build/soong",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_build_soong",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "2a20dbef",
-          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
-          "author": "Artem Karavashkin",
-          "date": "Sun Sep 14 16:55:03 2025 +0545",
-          "timestamp": 1757848203,
-          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/2a20dbef"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_development",
       "path": "development",
       "repo_url": "https://github.com/PixelOS-AOSP/android_development",
@@ -7082,6 +7033,23 @@
           "date": "Sun Sep 14 16:40:28 2025 +0545",
           "timestamp": 1757847328,
           "url": "https://github.com/PixelOS-AOSP/android_development/commit/2865a851"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_build_soong",
+      "path": "build/soong",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_build_soong",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "2a20dbef",
+          "message": "rust: config: Fix missing CPU variant LD flags in Rust",
+          "author": "Artem Karavashkin",
+          "date": "Sun Sep 14 16:55:03 2025 +0545",
+          "timestamp": 1757848203,
+          "url": "https://github.com/PixelOS-AOSP/android_build_soong/commit/2a20dbef"
         }
       ]
     },
@@ -7205,23 +7173,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "0121428f9",
-          "message": "Merge branch 'android16-security-release' into sixteen",
-          "author": "hridaya",
-          "date": "Sat Oct 11 11:15:16 2025 +0545",
-          "timestamp": 1760160616,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/0121428f9"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_system_security",
       "path": "system/security",
       "repo_url": "https://github.com/PixelOS-AOSP/android_system_security",
@@ -7235,6 +7186,23 @@
           "date": "Wed Oct 8 19:32:44 2025 +0530",
           "timestamp": 1759932164,
           "url": "https://github.com/PixelOS-AOSP/android_system_security/commit/26e3e11"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony",
+      "remote": "github",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "0121428f9",
+          "message": "Merge branch 'android16-security-release' into sixteen",
+          "author": "hridaya",
+          "date": "Sat Oct 11 11:15:16 2025 +0545",
+          "timestamp": 1760160616,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/0121428f9"
         }
       ]
     },

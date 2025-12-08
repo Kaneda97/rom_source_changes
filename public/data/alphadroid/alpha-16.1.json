@@ -1,10 +1,10 @@
 {
   "rom_id": "alphadroid",
   "branch": "alpha-16.1",
-  "generated_at": "2025-12-07T01:32:57.487209+00:00",
-  "since_date": "2025-09-08",
+  "generated_at": "2025-12-08T01:26:29.175133+00:00",
+  "since_date": "2025-09-09",
   "total_projects": 30,
-  "total_commits": 817,
+  "total_commits": 818,
   "projects": [
     {
       "name": "packages_apps_Launcher3",
@@ -5106,7 +5106,7 @@
       "path": "external/arm-optimized-routines",
       "repo_url": "https://github.com/alphadroid-project/external_arm-optimized-routines",
       "remote": "alpha",
-      "commit_count": 35,
+      "commit_count": 34,
       "commits": [
         {
           "sha": "a375521",
@@ -5379,14 +5379,6 @@
           "date": "Tue Sep 16 09:22:57 2025 +0000",
           "timestamp": 1758014577,
           "url": "https://github.com/alphadroid-project/external_arm-optimized-routines/commit/d07cb7c"
-        },
-        {
-          "sha": "1aad38d",
-          "message": "math: Remove WANT_SIMD_EXCEPT",
-          "author": "Dylan Fleming",
-          "date": "Mon Sep 8 08:54:09 2025 +0000",
-          "timestamp": 1757321649,
-          "url": "https://github.com/alphadroid-project/external_arm-optimized-routines/commit/1aad38d"
         }
       ]
     },
@@ -5395,8 +5387,24 @@
       "path": "vendor/OTA",
       "repo_url": "https://github.com/alphadroid-devices/OTA",
       "remote": "alpha-devices",
-      "commit_count": 30,
+      "commit_count": 32,
       "commits": [
+        {
+          "sha": "695974f",
+          "message": "fog: update structure fog.json",
+          "author": "Romeo13card",
+          "date": "Sun Dec 7 11:56:07 2025 +0300",
+          "timestamp": 1765097767,
+          "url": "https://github.com/alphadroid-devices/OTA/commit/695974f"
+        },
+        {
+          "sha": "3c1d790",
+          "message": "fog: 07/12/25 update",
+          "author": "Romeo13card",
+          "date": "Sun Dec 7 09:45:58 2025 +0100",
+          "timestamp": 1765097158,
+          "url": "https://github.com/alphadroid-devices/OTA/commit/3c1d790"
+        },
         {
           "sha": "1d543db",
           "message": "dodge: Initial AlphaDroid 4.2 Update",
@@ -6489,39 +6497,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "path": "external/chromium-webview/prebuilt/x86",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "84c74ff",
-          "message": "Update Chromium Webview x86 to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:58:08 2025 -0700",
-          "timestamp": 1762617488,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
-        },
-        {
-          "sha": "c1498b6",
-          "message": "Update Chromium Webview x86 to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:20 2025 -0600",
-          "timestamp": 1760795840,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
-        },
-        {
-          "sha": "c18e219",
-          "message": "Update Chromium Webview x86 to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:49 2025 -0600",
-          "timestamp": 1758982969,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_external_chromium-webview_prebuilt_arm64",
       "path": "external/chromium-webview/prebuilt/arm64",
       "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64",
@@ -6584,6 +6559,39 @@
           "date": "Sat Sep 27 08:22:39 2025 -0600",
           "timestamp": 1758982959,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "path": "external/chromium-webview/prebuilt/x86",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "84c74ff",
+          "message": "Update Chromium Webview x86 to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:58:08 2025 -0700",
+          "timestamp": 1762617488,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/84c74ff"
+        },
+        {
+          "sha": "c1498b6",
+          "message": "Update Chromium Webview x86 to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:20 2025 -0600",
+          "timestamp": 1760795840,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c1498b6"
+        },
+        {
+          "sha": "c18e219",
+          "message": "Update Chromium Webview x86 to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:49 2025 -0600",
+          "timestamp": 1758982969,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_x86/commit/c18e219"
         }
       ]
     },
@@ -6687,31 +6695,6 @@
       ]
     },
     {
-      "name": "packages_apps_Backgrounds",
-      "path": "packages/apps/Backgrounds",
-      "repo_url": "https://github.com/alphadroid-project/packages_apps_Backgrounds",
-      "remote": "alpha",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "cf7b003",
-          "message": "Merge branch 'lineage-23.0' of https://github.com/lineageos/android_packages_apps_Backgrounds into HEAD",
-          "author": "elpaablo",
-          "date": "Sun Nov 2 10:04:23 2025 +0000",
-          "timestamp": 1762077863,
-          "url": "https://github.com/alphadroid-project/packages_apps_Backgrounds/commit/cf7b003"
-        },
-        {
-          "sha": "e67e42a",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:40 2025 +0000",
-          "timestamp": 1758744400,
-          "url": "https://github.com/alphadroid-project/packages_apps_Backgrounds/commit/e67e42a"
-        }
-      ]
-    },
-    {
       "name": "packages_apps_FlipFlap",
       "path": "packages/apps/FlipFlap",
       "repo_url": "https://github.com/alphadroid-project/packages_apps_FlipFlap",
@@ -6733,6 +6716,31 @@
           "date": "Mon Sep 15 16:55:05 2025 +0000",
           "timestamp": 1757955305,
           "url": "https://github.com/alphadroid-project/packages_apps_FlipFlap/commit/dd49d55"
+        }
+      ]
+    },
+    {
+      "name": "packages_apps_Backgrounds",
+      "path": "packages/apps/Backgrounds",
+      "repo_url": "https://github.com/alphadroid-project/packages_apps_Backgrounds",
+      "remote": "alpha",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "cf7b003",
+          "message": "Merge branch 'lineage-23.0' of https://github.com/lineageos/android_packages_apps_Backgrounds into HEAD",
+          "author": "elpaablo",
+          "date": "Sun Nov 2 10:04:23 2025 +0000",
+          "timestamp": 1762077863,
+          "url": "https://github.com/alphadroid-project/packages_apps_Backgrounds/commit/cf7b003"
+        },
+        {
+          "sha": "e67e42a",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:40 2025 +0000",
+          "timestamp": 1758744400,
+          "url": "https://github.com/alphadroid-project/packages_apps_Backgrounds/commit/e67e42a"
         }
       ]
     },
