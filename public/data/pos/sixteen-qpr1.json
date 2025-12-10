@@ -1,10 +1,10 @@
 {
   "rom_id": "pos",
   "branch": "sixteen-qpr1",
-  "generated_at": "2025-12-09T01:24:26.111754+00:00",
-  "since_date": "2025-09-10",
-  "total_projects": 105,
-  "total_commits": 1130,
+  "generated_at": "2025-12-10T01:27:42.651370+00:00",
+  "since_date": "2025-09-11",
+  "total_projects": 103,
+  "total_commits": 1117,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -4440,7 +4440,7 @@
       "path": "vendor/lineage",
       "repo_url": "https://github.com/PixelOS-AOSP/android_vendor_lineage",
       "remote": "github",
-      "commit_count": 59,
+      "commit_count": 57,
       "commits": [
         {
           "sha": "0725065",
@@ -4897,22 +4897,6 @@
           "date": "Thu Sep 11 16:31:08 2025 +0000",
           "timestamp": 1757608268,
           "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/c7a3e36"
-        },
-        {
-          "sha": "616c2ae",
-          "message": "audio: Add Plasma Mobile alarms & notifications",
-          "author": "Inhishonor",
-          "date": "Wed Sep 10 18:38:52 2025 +0000",
-          "timestamp": 1757529532,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/616c2ae"
-        },
-        {
-          "sha": "7cd90ec",
-          "message": "kernel: Support building from kernel platform",
-          "author": "Aaron Kling",
-          "date": "Wed Sep 10 18:37:57 2025 +0000",
-          "timestamp": 1757529477,
-          "url": "https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/7cd90ec"
         }
       ]
     },
@@ -7220,79 +7204,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_sm8150_display",
-      "path": "hardware/qcom/sm8150/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
-      "remote": "lineageos",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "c13de98",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 19:31:29 2025 +0300",
-          "timestamp": 1757521889,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/c13de98"
-        },
-        {
-          "sha": "ad7078c",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/ad7078c"
-        },
-        {
-          "sha": "2a9e0e9",
-          "message": "Revert \"sdm/hwc: add display indices property for client id init\"",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/2a9e0e9"
-        },
-        {
-          "sha": "49c36ba",
-          "message": "sdm: Remove use_hwc2 conditional",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/49c36ba"
-        },
-        {
-          "sha": "99e4d3f",
-          "message": "Convert libhistogram/libsdmcore to blueprint",
-          "author": "LuK1337",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/99e4d3f"
-        },
-        {
-          "sha": "0278765",
-          "message": "display: Squashed revert of hypervisor changes",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/0278765"
-        },
-        {
-          "sha": "cd069e1",
-          "message": "Convert gpu_tonemapper to blueprint",
-          "author": "EndCredits",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cd069e1"
-        },
-        {
-          "sha": "cf6f59d",
-          "message": "Remove unused libcopybit sources",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 17:10:59 2025 +0300",
-          "timestamp": 1757513459,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cf6f59d"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_packages_resources_devicesettings",
       "path": "packages/resources/devicesettings",
       "repo_url": "https://github.com/LineageOS/android_packages_resources_devicesettings",
@@ -8130,104 +8041,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/audio",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
-      "remote": "lineageos",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "7d983f8",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:04 2025 +0200",
-          "timestamp": 1762607764,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/7d983f8"
-        },
-        {
-          "sha": "ed621aa",
-          "message": "Merge e0e9cc54a9a19d56bc36303b2a26efb59695e1b1 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:58:05 2025 -0700",
-          "timestamp": 1758869885,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/ed621aa"
-        },
-        {
-          "sha": "2b3b2aa",
-          "message": "Update device Id AIDL interface files",
-          "author": "Kunlei Zhang",
-          "date": "Tue Sep 16 01:49:45 2025 -0700",
-          "timestamp": 1758012585,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/2b3b2aa"
-        },
-        {
-          "sha": "8533503",
-          "message": "Merge 0524ac5c1fe11081f89aa6bea5b4e26c7eff0eba on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:15:54 2025 -0700",
-          "timestamp": 1757906154,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/8533503"
-        },
-        {
-          "sha": "e0e9cc5",
-          "message": "Update device Id AIDL interface files",
-          "author": "Kunlei Zhang",
-          "date": "Wed Sep 10 12:18:36 2025 +0800",
-          "timestamp": 1757477916,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/e0e9cc5"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8650/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "lineageos",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "5f520e7",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:49 2025 +0200",
-          "timestamp": 1762608289,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
-        },
-        {
-          "sha": "0c843bc",
-          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 26 01:33:25 2025 -0700",
-          "timestamp": 1761467605,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
-        },
-        {
-          "sha": "da7cc67",
-          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Oct 7 14:34:38 2025 -0700",
-          "timestamp": 1759872878,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
-        },
-        {
-          "sha": "ff41e63",
-          "message": "msm: ipa3: Use read memory barrier before reading events",
-          "author": "Chaitanya Pratapa",
-          "date": "Mon Sep 15 22:10:59 2025 -0700",
-          "timestamp": 1757999459,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
-        },
-        {
-          "sha": "2e2889d",
-          "message": "Merge 29d1fd0d9800b65fedb65455eda71d6792ca02bd on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 10 11:29:02 2025 -0700",
-          "timestamp": 1757528942,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/2e2889d"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_modules_adb",
       "path": "packages/modules/adb",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_adb",
@@ -8277,55 +8090,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_packages_services_Telephony",
-      "path": "packages/services/Telephony",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "5d9150702",
-          "message": "Telephony: Migrate RadioInfo from ScrollView to NestedScrollView",
-          "author": "ReallySnow",
-          "date": "Tue Nov 25 22:06:04 2025 +0530",
-          "timestamp": 1764088564,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/5d9150702"
-        },
-        {
-          "sha": "a253ff4bf",
-          "message": "Telephony: Add ERI configuration for U.S. Cellular",
-          "author": "Arne Coucheron",
-          "date": "Tue Nov 25 22:06:04 2025 +0530",
-          "timestamp": 1764088564,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/a253ff4bf"
-        },
-        {
-          "sha": "23af86912",
-          "message": "Telephony: Adapt to S style",
-          "author": "ReallySnow",
-          "date": "Tue Nov 25 22:06:00 2025 +0530",
-          "timestamp": 1764088560,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/23af86912"
-        },
-        {
-          "sha": "dadb5937b",
-          "message": "Telephony: use Build.VERSION.INCREMENTAL to check for system update",
-          "author": "maxwen",
-          "date": "Fri Nov 21 20:13:10 2025 +0530",
-          "timestamp": 1763736190,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/dadb5937b"
-        },
-        {
-          "sha": "e63fe6778",
-          "message": "Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 20:13:05 2025 +0530",
-          "timestamp": 1763736185,
-          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/e63fe6778"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_packages_modules_Bluetooth",
       "path": "packages/modules/Bluetooth",
       "repo_url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth",
@@ -8371,6 +8135,55 @@
           "date": "Fri Nov 21 17:06:25 2025 +0530",
           "timestamp": 1763724985,
           "url": "https://github.com/PixelOS-AOSP/android_packages_modules_Bluetooth/commit/a10c76a20"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony",
+      "remote": "github",
+      "commit_count": 5,
+      "commits": [
+        {
+          "sha": "5d9150702",
+          "message": "Telephony: Migrate RadioInfo from ScrollView to NestedScrollView",
+          "author": "ReallySnow",
+          "date": "Tue Nov 25 22:06:04 2025 +0530",
+          "timestamp": 1764088564,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/5d9150702"
+        },
+        {
+          "sha": "a253ff4bf",
+          "message": "Telephony: Add ERI configuration for U.S. Cellular",
+          "author": "Arne Coucheron",
+          "date": "Tue Nov 25 22:06:04 2025 +0530",
+          "timestamp": 1764088564,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/a253ff4bf"
+        },
+        {
+          "sha": "23af86912",
+          "message": "Telephony: Adapt to S style",
+          "author": "ReallySnow",
+          "date": "Tue Nov 25 22:06:00 2025 +0530",
+          "timestamp": 1764088560,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/23af86912"
+        },
+        {
+          "sha": "dadb5937b",
+          "message": "Telephony: use Build.VERSION.INCREMENTAL to check for system update",
+          "author": "maxwen",
+          "date": "Fri Nov 21 20:13:10 2025 +0530",
+          "timestamp": 1763736190,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/dadb5937b"
+        },
+        {
+          "sha": "e63fe6778",
+          "message": "Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 20:13:05 2025 +0530",
+          "timestamp": 1763736185,
+          "url": "https://github.com/PixelOS-AOSP/android_packages_services_Telephony/commit/e63fe6778"
         }
       ]
     },
@@ -8453,6 +8266,88 @@
           "date": "Mon Sep 15 06:01:33 2025 -0700",
           "timestamp": 1757941293,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commit/03a5ad8"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/audio",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
+      "remote": "lineageos",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "7d983f8",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:04 2025 +0200",
+          "timestamp": 1762607764,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/7d983f8"
+        },
+        {
+          "sha": "ed621aa",
+          "message": "Merge e0e9cc54a9a19d56bc36303b2a26efb59695e1b1 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:58:05 2025 -0700",
+          "timestamp": 1758869885,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/ed621aa"
+        },
+        {
+          "sha": "2b3b2aa",
+          "message": "Update device Id AIDL interface files",
+          "author": "Kunlei Zhang",
+          "date": "Tue Sep 16 01:49:45 2025 -0700",
+          "timestamp": 1758012585,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/2b3b2aa"
+        },
+        {
+          "sha": "8533503",
+          "message": "Merge 0524ac5c1fe11081f89aa6bea5b4e26c7eff0eba on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:15:54 2025 -0700",
+          "timestamp": 1757906154,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/8533503"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "lineageos",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "5f520e7",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:49 2025 +0200",
+          "timestamp": 1762608289,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
+        },
+        {
+          "sha": "0c843bc",
+          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 26 01:33:25 2025 -0700",
+          "timestamp": 1761467605,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
+        },
+        {
+          "sha": "da7cc67",
+          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Oct 7 14:34:38 2025 -0700",
+          "timestamp": 1759872878,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
+        },
+        {
+          "sha": "ff41e63",
+          "message": "msm: ipa3: Use read memory barrier before reading events",
+          "author": "Chaitanya Pratapa",
+          "date": "Mon Sep 15 22:10:59 2025 -0700",
+          "timestamp": 1757999459,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
         }
       ]
     },
@@ -8572,35 +8467,35 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "name": "LineageOS/android_hardware_qcom_wlan",
+      "path": "hardware/qcom-caf/wlan",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
       "remote": "lineageos",
       "commit_count": 3,
       "commits": [
         {
-          "sha": "0b70a90",
-          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "sha": "7aa5591",
+          "message": "Merge tag 'WLAN.LA.1.0.r1-08900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into staging/lineage-23.0_merge-WLAN.LA.1.0.r1-08900-pakala.0",
           "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:23:04 2025 +0200",
-          "timestamp": 1762608184,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
+          "date": "Sat Nov 8 15:39:10 2025 +0200",
+          "timestamp": 1762609150,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/7aa5591"
         },
         {
-          "sha": "06775df",
-          "message": "hal: Add missing headers for ultrasound_proximity",
-          "author": "AdarshGrewal",
-          "date": "Sat Sep 27 17:53:32 2025 +0200",
-          "timestamp": 1758988412,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/06775df"
+          "sha": "82a363c",
+          "message": "Revert \"wifi_hal: Fix KW issue\"",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:38:57 2025 +0200",
+          "timestamp": 1762609137,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/82a363c"
         },
         {
-          "sha": "3bfcebd",
-          "message": "Merge remote-tracking branch 'origin/audio-android-hal.lnx.3.0.c1' into audio-android-hal.lnx.1.0.r2-rel",
-          "author": "ukurukur",
-          "date": "Thu Sep 11 00:55:19 2025 +0530",
-          "timestamp": 1757532319,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/3bfcebd"
+          "sha": "7a6738b",
+          "message": "Merge cadf5ceb8a694276529fb387727c8fc04a23c820 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Sep 16 02:15:15 2025 -0700",
+          "timestamp": 1758014115,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/7a6738b"
         }
       ]
     },
@@ -8634,39 +8529,6 @@
           "date": "Mon Sep 15 16:55:04 2025 +0000",
           "timestamp": 1757955304,
           "url": "https://github.com/LineageOS/android_packages_apps_FMRadio/commit/5160538"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_wlan",
-      "path": "hardware/qcom-caf/wlan",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_wlan",
-      "remote": "lineageos",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "7aa5591",
-          "message": "Merge tag 'WLAN.LA.1.0.r1-08900-pakala.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into staging/lineage-23.0_merge-WLAN.LA.1.0.r1-08900-pakala.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:39:10 2025 +0200",
-          "timestamp": 1762609150,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/7aa5591"
-        },
-        {
-          "sha": "82a363c",
-          "message": "Revert \"wifi_hal: Fix KW issue\"",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:38:57 2025 +0200",
-          "timestamp": 1762609137,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/82a363c"
-        },
-        {
-          "sha": "7a6738b",
-          "message": "Merge cadf5ceb8a694276529fb387727c8fc04a23c820 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Sep 16 02:15:15 2025 -0700",
-          "timestamp": 1758014115,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_wlan/commit/7a6738b"
         }
       ]
     },
@@ -8737,39 +8599,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_bootable_deprecated-ota",
-      "path": "bootable/deprecated-ota",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "f0f0fbb",
-          "message": "updater: Support loading dynamic partition metadata from OTA",
-          "author": "Yumi Yukimura",
-          "date": "Fri Nov 21 15:53:39 2025 +0530",
-          "timestamp": 1763720619,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota/commit/f0f0fbb"
-        },
-        {
-          "sha": "269104b",
-          "message": "applypatch: Update recovery only when enabled in Updater settings",
-          "author": "Brint E. Kriebel",
-          "date": "Fri Nov 21 15:53:39 2025 +0530",
-          "timestamp": 1763720619,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota/commit/269104b"
-        },
-        {
-          "sha": "f3e7f80",
-          "message": "Bring back file-based OTA edify functions",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 15:53:39 2025 +0530",
-          "timestamp": 1763720619,
-          "url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota/commit/f3e7f80"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_bionic",
       "path": "bionic",
       "repo_url": "https://github.com/PixelOS-AOSP/android_bionic",
@@ -8799,6 +8628,39 @@
           "date": "Fri Nov 21 16:08:55 2025 +0530",
           "timestamp": 1763721535,
           "url": "https://github.com/PixelOS-AOSP/android_bionic/commit/8788cbd"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_bootable_deprecated-ota",
+      "path": "bootable/deprecated-ota",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "f0f0fbb",
+          "message": "updater: Support loading dynamic partition metadata from OTA",
+          "author": "Yumi Yukimura",
+          "date": "Fri Nov 21 15:53:39 2025 +0530",
+          "timestamp": 1763720619,
+          "url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota/commit/f0f0fbb"
+        },
+        {
+          "sha": "269104b",
+          "message": "applypatch: Update recovery only when enabled in Updater settings",
+          "author": "Brint E. Kriebel",
+          "date": "Fri Nov 21 15:53:39 2025 +0530",
+          "timestamp": 1763720619,
+          "url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota/commit/269104b"
+        },
+        {
+          "sha": "f3e7f80",
+          "message": "Bring back file-based OTA edify functions",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 15:53:39 2025 +0530",
+          "timestamp": 1763720619,
+          "url": "https://github.com/PixelOS-AOSP/android_bootable_deprecated-ota/commit/f3e7f80"
         }
       ]
     },
@@ -9059,6 +8921,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "d4f02ca",
+          "message": "qcom: Declare some prebuilt qti radio interfaces",
+          "author": "AnierinB",
+          "date": "Tue Dec 2 01:40:13 2025 +0000",
+          "timestamp": 1764639613,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/d4f02ca"
+        },
+        {
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -9080,6 +8967,31 @@
           "date": "Sun Sep 14 15:31:32 2025 +0300",
           "timestamp": 1757853092,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "lineageos",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0b70a90",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:23:04 2025 +0200",
+          "timestamp": 1762608184,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
+        },
+        {
+          "sha": "06775df",
+          "message": "hal: Add missing headers for ultrasound_proximity",
+          "author": "AdarshGrewal",
+          "date": "Sat Sep 27 17:53:32 2025 +0200",
+          "timestamp": 1758988412,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/06775df"
         }
       ]
     },
@@ -9259,31 +9171,6 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/android_external_e2fsprogs",
-      "path": "external/e2fsprogs",
-      "repo_url": "https://github.com/PixelOS-AOSP/android_external_e2fsprogs",
-      "remote": "github",
-      "commit_count": 2,
-      "commits": [
-        {
-          "sha": "47718ea",
-          "message": "e2fsck: Loosen fscrypt_policy struct size check",
-          "author": "LuK1337",
-          "date": "Fri Nov 21 15:53:51 2025 +0530",
-          "timestamp": 1763720631,
-          "url": "https://github.com/PixelOS-AOSP/android_external_e2fsprogs/commit/47718ea"
-        },
-        {
-          "sha": "b6df5de",
-          "message": "Mark e2fsck/resize2fs/tune2fs as `recovery_available`",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 15:53:51 2025 +0530",
-          "timestamp": 1763720631,
-          "url": "https://github.com/PixelOS-AOSP/android_external_e2fsprogs/commit/b6df5de"
-        }
-      ]
-    },
-    {
       "name": "PixelOS-AOSP/android_external_tinycompress",
       "path": "external/tinycompress",
       "repo_url": "https://github.com/PixelOS-AOSP/android_external_tinycompress",
@@ -9305,6 +9192,31 @@
           "date": "Fri Nov 21 15:53:53 2025 +0530",
           "timestamp": 1763720633,
           "url": "https://github.com/PixelOS-AOSP/android_external_tinycompress/commit/cdaf16e"
+        }
+      ]
+    },
+    {
+      "name": "PixelOS-AOSP/android_external_e2fsprogs",
+      "path": "external/e2fsprogs",
+      "repo_url": "https://github.com/PixelOS-AOSP/android_external_e2fsprogs",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "47718ea",
+          "message": "e2fsck: Loosen fscrypt_policy struct size check",
+          "author": "LuK1337",
+          "date": "Fri Nov 21 15:53:51 2025 +0530",
+          "timestamp": 1763720631,
+          "url": "https://github.com/PixelOS-AOSP/android_external_e2fsprogs/commit/47718ea"
+        },
+        {
+          "sha": "b6df5de",
+          "message": "Mark e2fsck/resize2fs/tune2fs as `recovery_available`",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 15:53:51 2025 +0530",
+          "timestamp": 1763720631,
+          "url": "https://github.com/PixelOS-AOSP/android_external_e2fsprogs/commit/b6df5de"
         }
       ]
     },
@@ -9459,27 +9371,27 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/proprietary_vendor_pixel_clocks",
-      "path": "vendor/pixel/clocks",
-      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks",
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
+      "path": "vendor/pixel/gms",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
       "remote": "gitlab",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "907167f",
-          "message": "clocks: Import from caiman-ota-bp3a.250905.014-8453649c",
+          "sha": "44ec538",
+          "message": "gms: Import from caiman-ota-bp3a.250905.014",
           "author": "inferno0230",
-          "date": "Sat Nov 29 11:00:00 2025 +0530",
-          "timestamp": 1764394200,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks/commit/907167f"
+          "date": "Sun Dec 7 09:40:11 2025 +0530",
+          "timestamp": 1765080611,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/44ec538"
         },
         {
-          "sha": "ab059f9",
-          "message": "clocks: Update from caiman-ota-bp3a.251105.015",
-          "author": "AdarshGrewal",
-          "date": "Mon Nov 24 14:07:33 2025 +0530",
-          "timestamp": 1763973453,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks/commit/ab059f9"
+          "sha": "8d5c697",
+          "message": "Initial empty repository",
+          "author": "inferno0230",
+          "date": "Sun Dec 7 09:39:21 2025 +0530",
+          "timestamp": 1765080561,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/8d5c697"
         }
       ]
     },
@@ -9534,27 +9446,27 @@
       ]
     },
     {
-      "name": "PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
-      "path": "vendor/pixel/gms",
-      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1",
+      "name": "PixelOS-AOSP/proprietary_vendor_pixel_clocks",
+      "path": "vendor/pixel/clocks",
+      "repo_url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks",
       "remote": "gitlab",
       "commit_count": 2,
       "commits": [
         {
-          "sha": "44ec538",
-          "message": "gms: Import from caiman-ota-bp3a.250905.014",
+          "sha": "907167f",
+          "message": "clocks: Import from caiman-ota-bp3a.250905.014-8453649c",
           "author": "inferno0230",
-          "date": "Sun Dec 7 09:40:11 2025 +0530",
-          "timestamp": 1765080611,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/44ec538"
+          "date": "Sat Nov 29 11:00:00 2025 +0530",
+          "timestamp": 1764394200,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks/commit/907167f"
         },
         {
-          "sha": "8d5c697",
-          "message": "Initial empty repository",
-          "author": "inferno0230",
-          "date": "Sun Dec 7 09:39:21 2025 +0530",
-          "timestamp": 1765080561,
-          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_gms-16.1/commit/8d5c697"
+          "sha": "ab059f9",
+          "message": "clocks: Update from caiman-ota-bp3a.251105.015",
+          "author": "AdarshGrewal",
+          "date": "Mon Nov 24 14:07:33 2025 +0530",
+          "timestamp": 1763973453,
+          "url": "https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks/commit/ab059f9"
         }
       ]
     },
@@ -9635,23 +9547,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "95c5d93",
-          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
-          "author": "Ankit Mishra",
-          "date": "Mon Nov 3 12:33:59 2025 +0000",
-          "timestamp": 1762173239,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -9699,23 +9594,6 @@
           "date": "Thu Nov 20 20:02:43 2025 +0000",
           "timestamp": 1763668963,
           "url": "https://github.com/LineageOS/android_hardware_qcom_display/commit/572019c"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_sm8150_gps",
-      "path": "hardware/qcom/sm8150/gps",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c102eca",
-          "message": "Remove obsolete os_pickup.{bp,mk}",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 16:23:52 2025 +0300",
-          "timestamp": 1757510632,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
         }
       ]
     },
@@ -9805,23 +9683,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
-      "path": "vendor/qcom/opensource/vibrator",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
-      "remote": "lineageos",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "a362998",
-          "message": "vibrator: Add support for aw-haptic-hv",
-          "author": "Arian",
-          "date": "Tue Oct 28 09:18:03 2025 +0100",
-          "timestamp": 1761639483,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_vendor_qcom_opensource_power",
       "path": "vendor/qcom/opensource/power",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power",
@@ -9835,6 +9696,23 @@
           "date": "Mon Nov 24 06:00:51 2025 -0500",
           "timestamp": 1763982051,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_power/commit/97a0bce"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_vibrator",
+      "path": "vendor/qcom/opensource/vibrator",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator",
+      "remote": "lineageos",
+      "commit_count": 1,
+      "commits": [
+        {
+          "sha": "a362998",
+          "message": "vibrator: Add support for aw-haptic-hv",
+          "author": "Arian",
+          "date": "Tue Oct 28 09:18:03 2025 +0100",
+          "timestamp": 1761639483,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commit/a362998"
         }
       ]
     },

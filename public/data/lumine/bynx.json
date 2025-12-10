@@ -1,10 +1,10 @@
 {
   "rom_id": "lumine",
   "branch": "bynx",
-  "generated_at": "2025-12-09T01:30:22.789022+00:00",
-  "since_date": "2025-09-10",
-  "total_projects": 125,
-  "total_commits": 1475,
+  "generated_at": "2025-12-10T01:35:33.018824+00:00",
+  "since_date": "2025-09-11",
+  "total_projects": 123,
+  "total_commits": 1452,
   "projects": [
     {
       "name": "LineageOS/android_external_vim",
@@ -2273,815 +2273,6 @@
       ]
     },
     {
-      "name": "platform_packages_apps_Settings",
-      "path": "packages/apps/Settings",
-      "repo_url": "https://github.com/LumineDroid/platform_packages_apps_Settings",
-      "remote": "lumine",
-      "commit_count": 100,
-      "commits": [
-        {
-          "sha": "d875f6a",
-          "message": "Settings: Improve firmware version design [2/2]",
-          "author": "Hexaboo",
-          "date": "Sat Nov 22 15:58:25 2025 +0000",
-          "timestamp": 1763827105,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d875f6a"
-        },
-        {
-          "sha": "8c0fc5f",
-          "message": "Settings: Improve battery divider handling in BatteryHeaderPreferenceController",
-          "author": "NurKeinNeid",
-          "date": "Sat Nov 22 01:38:38 2025 +0000",
-          "timestamp": 1763775518,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8c0fc5f"
-        },
-        {
-          "sha": "14b4d17",
-          "message": "add app battery optimization settings link to Battery screen",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Nov 21 18:53:36 2025 +0000",
-          "timestamp": 1763751216,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/14b4d17"
-        },
-        {
-          "sha": "b8de8a6",
-          "message": "make \"App info > App battery usage\" item directly open the inner screen",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Nov 21 18:53:35 2025 +0000",
-          "timestamp": 1763751215,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/b8de8a6"
-        },
-        {
-          "sha": "936c339",
-          "message": "[temporary] don't show battery usage info in App info item summary",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Nov 21 18:53:35 2025 +0000",
-          "timestamp": 1763751215,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/936c339"
-        },
-        {
-          "sha": "01d3a2d",
-          "message": "don't disable App info > Battery usage item while its summary is loading",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Nov 21 18:53:35 2025 +0000",
-          "timestamp": 1763751215,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/01d3a2d"
-        },
-        {
-          "sha": "f025fa5",
-          "message": "show current app battery usage mode in summary of App battery usage item",
-          "author": "Dmitry Muhomor",
-          "date": "Fri Nov 21 18:53:35 2025 +0000",
-          "timestamp": 1763751215,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/f025fa5"
-        },
-        {
-          "sha": "d476223",
-          "message": "Settings: Add BatteryDivider to fuelgauge",
-          "author": "kamikaonashi",
-          "date": "Fri Nov 21 18:50:48 2025 +0000",
-          "timestamp": 1763751048,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d476223"
-        },
-        {
-          "sha": "af1870e",
-          "message": "BatteryStateDatabase: Set exportSchema to false",
-          "author": "someone5678",
-          "date": "Fri Nov 21 18:48:47 2025 +0000",
-          "timestamp": 1763750927,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/af1870e"
-        },
-        {
-          "sha": "c5eac3e",
-          "message": "Setting: batteryinfo: Add config to enable/disable battery design & maximum capacity info",
-          "author": "SleepQueen",
-          "date": "Fri Nov 21 18:48:07 2025 +0000",
-          "timestamp": 1763750887,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/c5eac3e"
-        },
-        {
-          "sha": "e5fb936",
-          "message": "fuelgauge: Hide screen time since last full charge if not valid",
-          "author": "minaripenguin",
-          "date": "Fri Nov 21 18:47:34 2025 +0000",
-          "timestamp": 1763750854,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/e5fb936"
-        },
-        {
-          "sha": "09a372d",
-          "message": "Port \"Battery Usage Alerts\" feature from factory images",
-          "author": "ezio84",
-          "date": "Fri Nov 21 18:47:05 2025 +0000",
-          "timestamp": 1763750825,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/09a372d"
-        },
-        {
-          "sha": "2f91831",
-          "message": "display: add hdr display switch preference Change-Id: Ibbafce724ae0386c054394cdd8089ec58593cb30",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2f91831"
-        },
-        {
-          "sha": "dca9a5b",
-          "message": "Settings: Update build number before display",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/dca9a5b"
-        },
-        {
-          "sha": "7d436a4",
-          "message": "Revert \"Settings: Add PixelLauncher to allowlist for settings search\"",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7d436a4"
-        },
-        {
-          "sha": "7bbbf0a",
-          "message": "Settings: Introduce new refresh rate selector page [2/2]",
-          "author": "Adithya R",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7bbbf0a"
-        },
-        {
-          "sha": "d99a998",
-          "message": "Settings: add SearchIndexProviderHolder interface",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d99a998"
-        },
-        {
-          "sha": "c12bab4",
-          "message": "Settings: add abstract fragment class to reduce fragments boilerplate",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/c12bab4"
-        },
-        {
-          "sha": "f895011",
-          "message": "Settings: Update overlay package for pure black theme",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/f895011"
-        },
-        {
-          "sha": "db7ded0",
-          "message": "Settings: Allow disabling private DNS for VPN [2/2]",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Nov 20 01:02:16 2025 +0000",
-          "timestamp": 1763600536,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/db7ded0"
-        },
-        {
-          "sha": "2dd6138",
-          "message": "Settings: Move applock to apps section",
-          "author": "Dhina17",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2dd6138"
-        },
-        {
-          "sha": "a080d59",
-          "message": "Settings: AppLock: Update for kotlin errors",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a080d59"
-        },
-        {
-          "sha": "fae21b5",
-          "message": "Settings: Don't make app lock settings searchable",
-          "author": "Joey Huab",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/fae21b5"
-        },
-        {
-          "sha": "ea9a8ce",
-          "message": "Settings: Let app lock use face unlock",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ea9a8ce"
-        },
-        {
-          "sha": "6e6654a",
-          "message": "Settings: Add app lock settings for alternate security settings provider",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/6e6654a"
-        },
-        {
-          "sha": "d8064a4",
-          "message": "Settings: Add app lock summary for 0 protected apps",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d8064a4"
-        },
-        {
-          "sha": "9da74da",
-          "message": "AppLock: Slightly bigger icon size",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9da74da"
-        },
-        {
-          "sha": "8354455",
-          "message": "Settings: Update AppLock API",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8354455"
-        },
-        {
-          "sha": "7ae543a",
-          "message": "Settings: Allow locking all apps visible in launcher",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:15 2025 +0000",
-          "timestamp": 1763600535,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7ae543a"
-        },
-        {
-          "sha": "4338b68",
-          "message": "Settings: Introduce App Lock [3/4]",
-          "author": "jhonboy121",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4338b68"
-        },
-        {
-          "sha": "35c9a73",
-          "message": "Revert \"Settings: Support hiding gesture hint in NexusLauncher\"",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/35c9a73"
-        },
-        {
-          "sha": "3269ac7",
-          "message": "Settings: Add Game Space support",
-          "author": "Nauval Rizky",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3269ac7"
-        },
-        {
-          "sha": "3619c09",
-          "message": "Settings: Add controller for SwipeToScreenshot",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3619c09"
-        },
-        {
-          "sha": "5be7fc4",
-          "message": "Settings: Redesign firmware version [2/2]",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/5be7fc4"
-        },
-        {
-          "sha": "33bbad6",
-          "message": "Settings: Create extensions category activity",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/33bbad6"
-        },
-        {
-          "sha": "82ffa8f",
-          "message": "Settings: Apply expressive design to extensions icon",
-          "author": "AnierinB",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/82ffa8f"
-        },
-        {
-          "sha": "4fa1cb0",
-          "message": "Settings: Add LumineDroid logo to firmware version",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4fa1cb0"
-        },
-        {
-          "sha": "4ca1ebd",
-          "message": "Settings: Add Extensions to dashboard",
-          "author": "maxwen",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4ca1ebd"
-        },
-        {
-          "sha": "dc85837",
-          "message": "Settings: Avoid enforcing weird backgrounds",
-          "author": "El Dainosor",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/dc85837"
-        },
-        {
-          "sha": "8d070ab",
-          "message": "Settings: dont disable ls device controls based on secure lock",
-          "author": "maxwen",
-          "date": "Thu Nov 20 01:02:14 2025 +0000",
-          "timestamp": 1763600534,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8d070ab"
-        },
-        {
-          "sha": "2e9f859",
-          "message": "Remove empty Security status header",
-          "author": "Chirayu Desai",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2e9f859"
-        },
-        {
-          "sha": "4514908",
-          "message": "Settings: Add missing android title for top_level_settings",
-          "author": "Renlord",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4514908"
-        },
-        {
-          "sha": "a690cde",
-          "message": "Settings: Fix invalid private DNS help text if URI is missing",
-          "author": "Danny Lin",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a690cde"
-        },
-        {
-          "sha": "2a2e1d6",
-          "message": "Ignore custom app space management activities",
-          "author": "Danny Lin",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2a2e1d6"
-        },
-        {
-          "sha": "eabca2b",
-          "message": "Expand abbreviation in average memory usage string",
-          "author": "Danny Lin",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/eabca2b"
-        },
-        {
-          "sha": "165fe3d",
-          "message": "Settings: Force disable top level support preference",
-          "author": "jhenrique09",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/165fe3d"
-        },
-        {
-          "sha": "91b0f00",
-          "message": "Settings: Comment out Legal/Regulatory category",
-          "author": "jhenrique09",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/91b0f00"
-        },
-        {
-          "sha": "3a35859",
-          "message": "Remove feedback and bug report stuff",
-          "author": "ezio84",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3a35859"
-        },
-        {
-          "sha": "1d042d0",
-          "message": "Remove the Automatic ota check option but be sure it's disabled",
-          "author": "ezio84",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/1d042d0"
-        },
-        {
-          "sha": "3a01e66",
-          "message": "Comment out Legal/Regulatory info",
-          "author": "Corey Edwards",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3a01e66"
-        },
-        {
-          "sha": "e6eec93",
-          "message": "Settings: Redesign vibrate icon",
-          "author": "Anushek Prasal",
-          "date": "Thu Nov 20 01:02:13 2025 +0000",
-          "timestamp": 1763600533,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/e6eec93"
-        },
-        {
-          "sha": "69c7408",
-          "message": "Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable",
-          "author": "cjh1249131356",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/69c7408"
-        },
-        {
-          "sha": "0a46f5e",
-          "message": "Settings: Enable redirect vibration toggle unconditionally",
-          "author": "Adithya R",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/0a46f5e"
-        },
-        {
-          "sha": "d47d842",
-          "message": "Settings: Fix slice data illegal state in credentials",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d47d842"
-        },
-        {
-          "sha": "4286a56",
-          "message": "settings: Prevent crash when a category service is empty or null",
-          "author": "minaripenguin",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4286a56"
-        },
-        {
-          "sha": "1618533",
-          "message": "NfcAndPaymentFragmentController: fix crash",
-          "author": "Dmitrii",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/1618533"
-        },
-        {
-          "sha": "bed44fb",
-          "message": "ManageStoragePreferenceController: Explicitly disable storage management preference",
-          "author": "rmp22",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/bed44fb"
-        },
-        {
-          "sha": "853e9f8",
-          "message": "Settings: Support hiding gesture hint in NexusLauncher",
-          "author": "AnierinB",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/853e9f8"
-        },
-        {
-          "sha": "ff306bd",
-          "message": "Settings: Prevent IllegalArgumentException in storage settings",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ff306bd"
-        },
-        {
-          "sha": "9089e56",
-          "message": "Settings: bluetooth: Fix generateSummary out-of-bounds",
-          "author": "flakeforever",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9089e56"
-        },
-        {
-          "sha": "910bd2a",
-          "message": "Settings: Prevent Wifi Tethering NPE",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/910bd2a"
-        },
-        {
-          "sha": "ecfac38",
-          "message": "Use default letter spacing for category titles",
-          "author": "Danny Lin",
-          "date": "Thu Nov 20 01:02:12 2025 +0000",
-          "timestamp": 1763600532,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ecfac38"
-        },
-        {
-          "sha": "65979e3",
-          "message": "Settings: Move to lowercase of \"Apps\" in Cloned Apps title",
-          "author": "someone5678",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/65979e3"
-        },
-        {
-          "sha": "320711c",
-          "message": "Settings: buttons text should no longer be allCaps",
-          "author": "maxwen",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/320711c"
-        },
-        {
-          "sha": "8514a0a",
-          "message": "Settings: disable all bugreport settings",
-          "author": "maxwen",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8514a0a"
-        },
-        {
-          "sha": "cce82d2",
-          "message": "Settings: Use List Preference for Zen mode settings",
-          "author": "someone5678",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/cce82d2"
-        },
-        {
-          "sha": "7233cbc",
-          "message": "Settings: Use List Preference for Dock speaker plays and Emergency tone",
-          "author": "someone5678",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7233cbc"
-        },
-        {
-          "sha": "ce6cb59",
-          "message": "Settings: Disable financed lock",
-          "author": "Omkar Chandorkar",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ce6cb59"
-        },
-        {
-          "sha": "03da3fc",
-          "message": "Settings: Show package name in app info header",
-          "author": "Adithya R",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/03da3fc"
-        },
-        {
-          "sha": "28f731f",
-          "message": "Settings: Whitelist WRITE_DEVICE_CONFIG permission",
-          "author": "saikiran2001",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/28f731f"
-        },
-        {
-          "sha": "cb3e563",
-          "message": "Settings: Show user's Google avatar on the homepage",
-          "author": "Jason Edson",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/cb3e563"
-        },
-        {
-          "sha": "0f3904c",
-          "message": "Settings: Set the default account provider to Google",
-          "author": "jhenrique09",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/0f3904c"
-        },
-        {
-          "sha": "8923d3d",
-          "message": "Settings: Add missing summary for Display size and text",
-          "author": "PainKiller3",
-          "date": "Thu Nov 20 01:02:11 2025 +0000",
-          "timestamp": 1763600531,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8923d3d"
-        },
-        {
-          "sha": "88b7580",
-          "message": "Settings: Make sure settings shortcut icons follow system accent",
-          "author": "Alex",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/88b7580"
-        },
-        {
-          "sha": "c76a190",
-          "message": "Allow sorting Applications by size",
-          "author": "Roman Royer",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/c76a190"
-        },
-        {
-          "sha": "a1b4c40",
-          "message": "Settings: Forcefully enable Hotspot Speed setting",
-          "author": "someone5678",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a1b4c40"
-        },
-        {
-          "sha": "a79e798",
-          "message": "Refactor AppPicker page to adopt Settings main theme",
-          "author": "Shen Lin",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a79e798"
-        },
-        {
-          "sha": "db18d30",
-          "message": "Settings: Add permission to hold wake lock",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/db18d30"
-        },
-        {
-          "sha": "624d82e",
-          "message": "InstalledAppDetails: fix refreshing storage summary after force stop",
-          "author": "Altaf-Mahdi",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/624d82e"
-        },
-        {
-          "sha": "9c22112",
-          "message": "Settings: Improve code for time spent in app",
-          "author": "Jyotiraditya Panda",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9c22112"
-        },
-        {
-          "sha": "2c51fe1",
-          "message": "AppInfo: Add time spent in app from Wellbeing",
-          "author": "Jason Edson",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2c51fe1"
-        },
-        {
-          "sha": "aa419d2",
-          "message": "Settings: OverlayCategoryPreferenceController: Sort overlays by name",
-          "author": "Ido Ben-Hur",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/aa419d2"
-        },
-        {
-          "sha": "3ee53f0",
-          "message": "Settings: Link smallest width options in display settings",
-          "author": "Subhajeet Muhuri",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3ee53f0"
-        },
-        {
-          "sha": "804f3af",
-          "message": "Settings: Follow system theme for SD card activities",
-          "author": "Michael W",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/804f3af"
-        },
-        {
-          "sha": "9274a70",
-          "message": "Settings: Add missing icon for media output",
-          "author": "ReallySnow",
-          "date": "Thu Nov 20 01:02:10 2025 +0000",
-          "timestamp": 1763600530,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9274a70"
-        },
-        {
-          "sha": "d27552a",
-          "message": "Settings: Add icon for emergency broadcasts",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d27552a"
-        },
-        {
-          "sha": "9e6cb72",
-          "message": "Settings: move Extra Dim feature to display",
-          "author": "SuperDroidBond",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9e6cb72"
-        },
-        {
-          "sha": "a84168b",
-          "message": "Settings: Fix up panel theme and layout",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a84168b"
-        },
-        {
-          "sha": "6261ac7",
-          "message": "Settings: Fix potential NPE in WifiTetherSecurityPreferenceController",
-          "author": "Fabian Leutenegger",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/6261ac7"
-        },
-        {
-          "sha": "999c23e",
-          "message": "Add back arrow to Desktop backup password",
-          "author": "Alex Cruz",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/999c23e"
-        },
-        {
-          "sha": "892abda",
-          "message": "Settings: Remove divider from Battery Manager",
-          "author": "Akash Srivastava",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/892abda"
-        },
-        {
-          "sha": "73c49d7",
-          "message": "Settings: Remove dividers in Network & Internet",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/73c49d7"
-        },
-        {
-          "sha": "14b6795",
-          "message": "Settings: Check wifi direct feature for showing preferences",
-          "author": "maxwen",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/14b6795"
-        },
-        {
-          "sha": "53e891b",
-          "message": "Settings: Desktop backup password: Tint buttons to match system theme",
-          "author": "Alex",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/53e891b"
-        },
-        {
-          "sha": "4daf181",
-          "message": "battery usage UI: use a fallback name for unknown components",
-          "author": "Dmitry Muhomor",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4daf181"
-        },
-        {
-          "sha": "98f0725",
-          "message": "Settings: Fix rest of the edit menu icon tint",
-          "author": "jhonboy121",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/98f0725"
-        },
-        {
-          "sha": "1b2f834",
-          "message": "NightDisplay Settings: Use List Preference for NightLight settings",
-          "author": "Akash",
-          "date": "Thu Nov 20 01:02:09 2025 +0000",
-          "timestamp": 1763600529,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/1b2f834"
-        },
-        {
-          "sha": "7dd01d1",
-          "message": "Settings: Use ListPreference instead of DropDownPreference",
-          "author": "IacobIonut01",
-          "date": "Thu Nov 20 01:02:08 2025 +0000",
-          "timestamp": 1763600528,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7dd01d1"
-        },
-        {
-          "sha": "aabcbf6",
-          "message": "Settings: Use List Preference for Dark mode",
-          "author": "Pranav Vashi",
-          "date": "Thu Nov 20 01:02:08 2025 +0000",
-          "timestamp": 1763600528,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/aabcbf6"
-        },
-        {
-          "sha": "9b838d5",
-          "message": "Settings: Don't show module version if isn't a date",
-          "author": "jhenrique09",
-          "date": "Thu Nov 20 01:02:08 2025 +0000",
-          "timestamp": 1763600528,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9b838d5"
-        }
-      ]
-    },
-    {
       "name": "platform_frameworks_base",
       "path": "frameworks/base",
       "repo_url": "https://github.com/LumineDroid/platform_frameworks_base",
@@ -3887,6 +3078,815 @@
           "date": "Thu Nov 20 01:10:55 2025 +0000",
           "timestamp": 1763601055,
           "url": "https://github.com/LumineDroid/platform_frameworks_base/commit/1c5752d3"
+        }
+      ]
+    },
+    {
+      "name": "platform_packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "repo_url": "https://github.com/LumineDroid/platform_packages_apps_Settings",
+      "remote": "lumine",
+      "commit_count": 100,
+      "commits": [
+        {
+          "sha": "d875f6a",
+          "message": "Settings: Improve firmware version design [2/2]",
+          "author": "Hexaboo",
+          "date": "Sat Nov 22 15:58:25 2025 +0000",
+          "timestamp": 1763827105,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d875f6a"
+        },
+        {
+          "sha": "8c0fc5f",
+          "message": "Settings: Improve battery divider handling in BatteryHeaderPreferenceController",
+          "author": "NurKeinNeid",
+          "date": "Sat Nov 22 01:38:38 2025 +0000",
+          "timestamp": 1763775518,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8c0fc5f"
+        },
+        {
+          "sha": "14b4d17",
+          "message": "add app battery optimization settings link to Battery screen",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Nov 21 18:53:36 2025 +0000",
+          "timestamp": 1763751216,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/14b4d17"
+        },
+        {
+          "sha": "b8de8a6",
+          "message": "make \"App info > App battery usage\" item directly open the inner screen",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Nov 21 18:53:35 2025 +0000",
+          "timestamp": 1763751215,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/b8de8a6"
+        },
+        {
+          "sha": "936c339",
+          "message": "[temporary] don't show battery usage info in App info item summary",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Nov 21 18:53:35 2025 +0000",
+          "timestamp": 1763751215,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/936c339"
+        },
+        {
+          "sha": "01d3a2d",
+          "message": "don't disable App info > Battery usage item while its summary is loading",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Nov 21 18:53:35 2025 +0000",
+          "timestamp": 1763751215,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/01d3a2d"
+        },
+        {
+          "sha": "f025fa5",
+          "message": "show current app battery usage mode in summary of App battery usage item",
+          "author": "Dmitry Muhomor",
+          "date": "Fri Nov 21 18:53:35 2025 +0000",
+          "timestamp": 1763751215,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/f025fa5"
+        },
+        {
+          "sha": "d476223",
+          "message": "Settings: Add BatteryDivider to fuelgauge",
+          "author": "kamikaonashi",
+          "date": "Fri Nov 21 18:50:48 2025 +0000",
+          "timestamp": 1763751048,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d476223"
+        },
+        {
+          "sha": "af1870e",
+          "message": "BatteryStateDatabase: Set exportSchema to false",
+          "author": "someone5678",
+          "date": "Fri Nov 21 18:48:47 2025 +0000",
+          "timestamp": 1763750927,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/af1870e"
+        },
+        {
+          "sha": "c5eac3e",
+          "message": "Setting: batteryinfo: Add config to enable/disable battery design & maximum capacity info",
+          "author": "SleepQueen",
+          "date": "Fri Nov 21 18:48:07 2025 +0000",
+          "timestamp": 1763750887,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/c5eac3e"
+        },
+        {
+          "sha": "e5fb936",
+          "message": "fuelgauge: Hide screen time since last full charge if not valid",
+          "author": "minaripenguin",
+          "date": "Fri Nov 21 18:47:34 2025 +0000",
+          "timestamp": 1763750854,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/e5fb936"
+        },
+        {
+          "sha": "09a372d",
+          "message": "Port \"Battery Usage Alerts\" feature from factory images",
+          "author": "ezio84",
+          "date": "Fri Nov 21 18:47:05 2025 +0000",
+          "timestamp": 1763750825,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/09a372d"
+        },
+        {
+          "sha": "2f91831",
+          "message": "display: add hdr display switch preference Change-Id: Ibbafce724ae0386c054394cdd8089ec58593cb30",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2f91831"
+        },
+        {
+          "sha": "dca9a5b",
+          "message": "Settings: Update build number before display",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/dca9a5b"
+        },
+        {
+          "sha": "7d436a4",
+          "message": "Revert \"Settings: Add PixelLauncher to allowlist for settings search\"",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7d436a4"
+        },
+        {
+          "sha": "7bbbf0a",
+          "message": "Settings: Introduce new refresh rate selector page [2/2]",
+          "author": "Adithya R",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7bbbf0a"
+        },
+        {
+          "sha": "d99a998",
+          "message": "Settings: add SearchIndexProviderHolder interface",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d99a998"
+        },
+        {
+          "sha": "c12bab4",
+          "message": "Settings: add abstract fragment class to reduce fragments boilerplate",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/c12bab4"
+        },
+        {
+          "sha": "f895011",
+          "message": "Settings: Update overlay package for pure black theme",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/f895011"
+        },
+        {
+          "sha": "db7ded0",
+          "message": "Settings: Allow disabling private DNS for VPN [2/2]",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 20 01:02:16 2025 +0000",
+          "timestamp": 1763600536,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/db7ded0"
+        },
+        {
+          "sha": "2dd6138",
+          "message": "Settings: Move applock to apps section",
+          "author": "Dhina17",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2dd6138"
+        },
+        {
+          "sha": "a080d59",
+          "message": "Settings: AppLock: Update for kotlin errors",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a080d59"
+        },
+        {
+          "sha": "fae21b5",
+          "message": "Settings: Don't make app lock settings searchable",
+          "author": "Joey Huab",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/fae21b5"
+        },
+        {
+          "sha": "ea9a8ce",
+          "message": "Settings: Let app lock use face unlock",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ea9a8ce"
+        },
+        {
+          "sha": "6e6654a",
+          "message": "Settings: Add app lock settings for alternate security settings provider",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/6e6654a"
+        },
+        {
+          "sha": "d8064a4",
+          "message": "Settings: Add app lock summary for 0 protected apps",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d8064a4"
+        },
+        {
+          "sha": "9da74da",
+          "message": "AppLock: Slightly bigger icon size",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9da74da"
+        },
+        {
+          "sha": "8354455",
+          "message": "Settings: Update AppLock API",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8354455"
+        },
+        {
+          "sha": "7ae543a",
+          "message": "Settings: Allow locking all apps visible in launcher",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:15 2025 +0000",
+          "timestamp": 1763600535,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7ae543a"
+        },
+        {
+          "sha": "4338b68",
+          "message": "Settings: Introduce App Lock [3/4]",
+          "author": "jhonboy121",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4338b68"
+        },
+        {
+          "sha": "35c9a73",
+          "message": "Revert \"Settings: Support hiding gesture hint in NexusLauncher\"",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/35c9a73"
+        },
+        {
+          "sha": "3269ac7",
+          "message": "Settings: Add Game Space support",
+          "author": "Nauval Rizky",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3269ac7"
+        },
+        {
+          "sha": "3619c09",
+          "message": "Settings: Add controller for SwipeToScreenshot",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3619c09"
+        },
+        {
+          "sha": "5be7fc4",
+          "message": "Settings: Redesign firmware version [2/2]",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/5be7fc4"
+        },
+        {
+          "sha": "33bbad6",
+          "message": "Settings: Create extensions category activity",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/33bbad6"
+        },
+        {
+          "sha": "82ffa8f",
+          "message": "Settings: Apply expressive design to extensions icon",
+          "author": "AnierinB",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/82ffa8f"
+        },
+        {
+          "sha": "4fa1cb0",
+          "message": "Settings: Add LumineDroid logo to firmware version",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4fa1cb0"
+        },
+        {
+          "sha": "4ca1ebd",
+          "message": "Settings: Add Extensions to dashboard",
+          "author": "maxwen",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4ca1ebd"
+        },
+        {
+          "sha": "dc85837",
+          "message": "Settings: Avoid enforcing weird backgrounds",
+          "author": "El Dainosor",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/dc85837"
+        },
+        {
+          "sha": "8d070ab",
+          "message": "Settings: dont disable ls device controls based on secure lock",
+          "author": "maxwen",
+          "date": "Thu Nov 20 01:02:14 2025 +0000",
+          "timestamp": 1763600534,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8d070ab"
+        },
+        {
+          "sha": "2e9f859",
+          "message": "Remove empty Security status header",
+          "author": "Chirayu Desai",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2e9f859"
+        },
+        {
+          "sha": "4514908",
+          "message": "Settings: Add missing android title for top_level_settings",
+          "author": "Renlord",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4514908"
+        },
+        {
+          "sha": "a690cde",
+          "message": "Settings: Fix invalid private DNS help text if URI is missing",
+          "author": "Danny Lin",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a690cde"
+        },
+        {
+          "sha": "2a2e1d6",
+          "message": "Ignore custom app space management activities",
+          "author": "Danny Lin",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2a2e1d6"
+        },
+        {
+          "sha": "eabca2b",
+          "message": "Expand abbreviation in average memory usage string",
+          "author": "Danny Lin",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/eabca2b"
+        },
+        {
+          "sha": "165fe3d",
+          "message": "Settings: Force disable top level support preference",
+          "author": "jhenrique09",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/165fe3d"
+        },
+        {
+          "sha": "91b0f00",
+          "message": "Settings: Comment out Legal/Regulatory category",
+          "author": "jhenrique09",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/91b0f00"
+        },
+        {
+          "sha": "3a35859",
+          "message": "Remove feedback and bug report stuff",
+          "author": "ezio84",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3a35859"
+        },
+        {
+          "sha": "1d042d0",
+          "message": "Remove the Automatic ota check option but be sure it's disabled",
+          "author": "ezio84",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/1d042d0"
+        },
+        {
+          "sha": "3a01e66",
+          "message": "Comment out Legal/Regulatory info",
+          "author": "Corey Edwards",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3a01e66"
+        },
+        {
+          "sha": "e6eec93",
+          "message": "Settings: Redesign vibrate icon",
+          "author": "Anushek Prasal",
+          "date": "Thu Nov 20 01:02:13 2025 +0000",
+          "timestamp": 1763600533,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/e6eec93"
+        },
+        {
+          "sha": "69c7408",
+          "message": "Settings: deviceinfo: Try read designed capacity from PowerProfile if unavailable",
+          "author": "cjh1249131356",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/69c7408"
+        },
+        {
+          "sha": "0a46f5e",
+          "message": "Settings: Enable redirect vibration toggle unconditionally",
+          "author": "Adithya R",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/0a46f5e"
+        },
+        {
+          "sha": "d47d842",
+          "message": "Settings: Fix slice data illegal state in credentials",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d47d842"
+        },
+        {
+          "sha": "4286a56",
+          "message": "settings: Prevent crash when a category service is empty or null",
+          "author": "minaripenguin",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4286a56"
+        },
+        {
+          "sha": "1618533",
+          "message": "NfcAndPaymentFragmentController: fix crash",
+          "author": "Dmitrii",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/1618533"
+        },
+        {
+          "sha": "bed44fb",
+          "message": "ManageStoragePreferenceController: Explicitly disable storage management preference",
+          "author": "rmp22",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/bed44fb"
+        },
+        {
+          "sha": "853e9f8",
+          "message": "Settings: Support hiding gesture hint in NexusLauncher",
+          "author": "AnierinB",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/853e9f8"
+        },
+        {
+          "sha": "ff306bd",
+          "message": "Settings: Prevent IllegalArgumentException in storage settings",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ff306bd"
+        },
+        {
+          "sha": "9089e56",
+          "message": "Settings: bluetooth: Fix generateSummary out-of-bounds",
+          "author": "flakeforever",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9089e56"
+        },
+        {
+          "sha": "910bd2a",
+          "message": "Settings: Prevent Wifi Tethering NPE",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/910bd2a"
+        },
+        {
+          "sha": "ecfac38",
+          "message": "Use default letter spacing for category titles",
+          "author": "Danny Lin",
+          "date": "Thu Nov 20 01:02:12 2025 +0000",
+          "timestamp": 1763600532,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ecfac38"
+        },
+        {
+          "sha": "65979e3",
+          "message": "Settings: Move to lowercase of \"Apps\" in Cloned Apps title",
+          "author": "someone5678",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/65979e3"
+        },
+        {
+          "sha": "320711c",
+          "message": "Settings: buttons text should no longer be allCaps",
+          "author": "maxwen",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/320711c"
+        },
+        {
+          "sha": "8514a0a",
+          "message": "Settings: disable all bugreport settings",
+          "author": "maxwen",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8514a0a"
+        },
+        {
+          "sha": "cce82d2",
+          "message": "Settings: Use List Preference for Zen mode settings",
+          "author": "someone5678",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/cce82d2"
+        },
+        {
+          "sha": "7233cbc",
+          "message": "Settings: Use List Preference for Dock speaker plays and Emergency tone",
+          "author": "someone5678",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7233cbc"
+        },
+        {
+          "sha": "ce6cb59",
+          "message": "Settings: Disable financed lock",
+          "author": "Omkar Chandorkar",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/ce6cb59"
+        },
+        {
+          "sha": "03da3fc",
+          "message": "Settings: Show package name in app info header",
+          "author": "Adithya R",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/03da3fc"
+        },
+        {
+          "sha": "28f731f",
+          "message": "Settings: Whitelist WRITE_DEVICE_CONFIG permission",
+          "author": "saikiran2001",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/28f731f"
+        },
+        {
+          "sha": "cb3e563",
+          "message": "Settings: Show user's Google avatar on the homepage",
+          "author": "Jason Edson",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/cb3e563"
+        },
+        {
+          "sha": "0f3904c",
+          "message": "Settings: Set the default account provider to Google",
+          "author": "jhenrique09",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/0f3904c"
+        },
+        {
+          "sha": "8923d3d",
+          "message": "Settings: Add missing summary for Display size and text",
+          "author": "PainKiller3",
+          "date": "Thu Nov 20 01:02:11 2025 +0000",
+          "timestamp": 1763600531,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/8923d3d"
+        },
+        {
+          "sha": "88b7580",
+          "message": "Settings: Make sure settings shortcut icons follow system accent",
+          "author": "Alex",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/88b7580"
+        },
+        {
+          "sha": "c76a190",
+          "message": "Allow sorting Applications by size",
+          "author": "Roman Royer",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/c76a190"
+        },
+        {
+          "sha": "a1b4c40",
+          "message": "Settings: Forcefully enable Hotspot Speed setting",
+          "author": "someone5678",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a1b4c40"
+        },
+        {
+          "sha": "a79e798",
+          "message": "Refactor AppPicker page to adopt Settings main theme",
+          "author": "Shen Lin",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a79e798"
+        },
+        {
+          "sha": "db18d30",
+          "message": "Settings: Add permission to hold wake lock",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/db18d30"
+        },
+        {
+          "sha": "624d82e",
+          "message": "InstalledAppDetails: fix refreshing storage summary after force stop",
+          "author": "Altaf-Mahdi",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/624d82e"
+        },
+        {
+          "sha": "9c22112",
+          "message": "Settings: Improve code for time spent in app",
+          "author": "Jyotiraditya Panda",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9c22112"
+        },
+        {
+          "sha": "2c51fe1",
+          "message": "AppInfo: Add time spent in app from Wellbeing",
+          "author": "Jason Edson",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/2c51fe1"
+        },
+        {
+          "sha": "aa419d2",
+          "message": "Settings: OverlayCategoryPreferenceController: Sort overlays by name",
+          "author": "Ido Ben-Hur",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/aa419d2"
+        },
+        {
+          "sha": "3ee53f0",
+          "message": "Settings: Link smallest width options in display settings",
+          "author": "Subhajeet Muhuri",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/3ee53f0"
+        },
+        {
+          "sha": "804f3af",
+          "message": "Settings: Follow system theme for SD card activities",
+          "author": "Michael W",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/804f3af"
+        },
+        {
+          "sha": "9274a70",
+          "message": "Settings: Add missing icon for media output",
+          "author": "ReallySnow",
+          "date": "Thu Nov 20 01:02:10 2025 +0000",
+          "timestamp": 1763600530,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9274a70"
+        },
+        {
+          "sha": "d27552a",
+          "message": "Settings: Add icon for emergency broadcasts",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/d27552a"
+        },
+        {
+          "sha": "9e6cb72",
+          "message": "Settings: move Extra Dim feature to display",
+          "author": "SuperDroidBond",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9e6cb72"
+        },
+        {
+          "sha": "a84168b",
+          "message": "Settings: Fix up panel theme and layout",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/a84168b"
+        },
+        {
+          "sha": "6261ac7",
+          "message": "Settings: Fix potential NPE in WifiTetherSecurityPreferenceController",
+          "author": "Fabian Leutenegger",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/6261ac7"
+        },
+        {
+          "sha": "999c23e",
+          "message": "Add back arrow to Desktop backup password",
+          "author": "Alex Cruz",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/999c23e"
+        },
+        {
+          "sha": "892abda",
+          "message": "Settings: Remove divider from Battery Manager",
+          "author": "Akash Srivastava",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/892abda"
+        },
+        {
+          "sha": "73c49d7",
+          "message": "Settings: Remove dividers in Network & Internet",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/73c49d7"
+        },
+        {
+          "sha": "14b6795",
+          "message": "Settings: Check wifi direct feature for showing preferences",
+          "author": "maxwen",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/14b6795"
+        },
+        {
+          "sha": "53e891b",
+          "message": "Settings: Desktop backup password: Tint buttons to match system theme",
+          "author": "Alex",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/53e891b"
+        },
+        {
+          "sha": "4daf181",
+          "message": "battery usage UI: use a fallback name for unknown components",
+          "author": "Dmitry Muhomor",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/4daf181"
+        },
+        {
+          "sha": "98f0725",
+          "message": "Settings: Fix rest of the edit menu icon tint",
+          "author": "jhonboy121",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/98f0725"
+        },
+        {
+          "sha": "1b2f834",
+          "message": "NightDisplay Settings: Use List Preference for NightLight settings",
+          "author": "Akash",
+          "date": "Thu Nov 20 01:02:09 2025 +0000",
+          "timestamp": 1763600529,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/1b2f834"
+        },
+        {
+          "sha": "7dd01d1",
+          "message": "Settings: Use ListPreference instead of DropDownPreference",
+          "author": "IacobIonut01",
+          "date": "Thu Nov 20 01:02:08 2025 +0000",
+          "timestamp": 1763600528,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/7dd01d1"
+        },
+        {
+          "sha": "aabcbf6",
+          "message": "Settings: Use List Preference for Dark mode",
+          "author": "Pranav Vashi",
+          "date": "Thu Nov 20 01:02:08 2025 +0000",
+          "timestamp": 1763600528,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/aabcbf6"
+        },
+        {
+          "sha": "9b838d5",
+          "message": "Settings: Don't show module version if isn't a date",
+          "author": "jhenrique09",
+          "date": "Thu Nov 20 01:02:08 2025 +0000",
+          "timestamp": 1763600528,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_Settings/commit/9b838d5"
         }
       ]
     },
@@ -5714,7 +5714,7 @@
       "path": "device/qcom/sepolicy_vndr/sm8650",
       "repo_url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr",
       "remote": "github",
-      "commit_count": 44,
+      "commit_count": 40,
       "commits": [
         {
           "sha": "dd78185",
@@ -6035,38 +6035,6 @@
           "date": "Fri Sep 12 16:31:27 2025 +0530",
           "timestamp": 1757674887,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/1d7a453"
-        },
-        {
-          "sha": "5f1af95",
-          "message": "Merge 17533ba5b7fbe990d03b454aafe5470be649a92c on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 10 11:23:35 2025 -0700",
-          "timestamp": 1757528615,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/5f1af95"
-        },
-        {
-          "sha": "4b53010",
-          "message": "Merge \"Add wakeup node SELinux labels for new SoC peripherals\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 10 10:50:52 2025 -0700",
-          "timestamp": 1757526652,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/4b53010"
-        },
-        {
-          "sha": "8572dc9",
-          "message": "Merge \"sepolicy_vndr: Add genfscon rules for remoteproc-adsp wakeup nodes\"",
-          "author": "QCTECMDR Service",
-          "date": "Wed Sep 10 04:25:11 2025 -0700",
-          "timestamp": 1757503511,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/8572dc9"
-        },
-        {
-          "sha": "d621577",
-          "message": "Add wakeup node SELinux labels for new SoC peripherals",
-          "author": "Nikhitha Velayudhan",
-          "date": "Wed Sep 10 09:49:29 2025 +0530",
-          "timestamp": 1757477969,
-          "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/d621577"
         }
       ]
     },
@@ -6368,271 +6336,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_packages_apps_Aperture",
-      "path": "packages/apps/Aperture",
-      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
-      "remote": "github",
-      "commit_count": 32,
-      "commits": [
-        {
-          "sha": "518af25",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Mon Dec 1 14:53:12 2025 +0000",
-          "timestamp": 1764600792,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/518af25"
-        },
-        {
-          "sha": "5dff58d",
-          "message": "Aperture: Use colorError from appcompat",
-          "author": "Michael Bestas",
-          "date": "Fri Nov 21 13:06:52 2025 +0200",
-          "timestamp": 1763723212,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/5dff58d"
-        },
-        {
-          "sha": "825b7f6",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 15 18:01:56 2025 +0000",
-          "timestamp": 1763229716,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6"
-        },
-        {
-          "sha": "998f355",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Sat Nov 1 19:48:36 2025 +0000",
-          "timestamp": 1762026516,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/998f355"
-        },
-        {
-          "sha": "c9f9831",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Thu Oct 16 01:24:22 2025 +0000",
-          "timestamp": 1760577862,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c9f9831"
-        },
-        {
-          "sha": "482abce",
-          "message": "Aperture: Configure camera after we have camera permissions",
-          "author": "Sebastiano Barezzi",
-          "date": "Sun Oct 12 15:47:51 2025 +0200",
-          "timestamp": 1760276871,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/482abce"
-        },
-        {
-          "sha": "90c6cd2",
-          "message": "Aperture: Fix RAW capture when permissions are granted after app launch",
-          "author": "Sebastiano Barezzi",
-          "date": "Sat Oct 11 16:51:48 2025 +0000",
-          "timestamp": 1760201508,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/90c6cd2"
-        },
-        {
-          "sha": "c30b723",
-          "message": "Aperture: Update CameraX to 1.5.1",
-          "author": "LuK1337",
-          "date": "Wed Oct 8 22:04:41 2025 +0200",
-          "timestamp": 1759953881,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c30b723"
-        },
-        {
-          "sha": "58d57e0",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Oct 1 19:38:02 2025 +0000",
-          "timestamp": 1759347482,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/58d57e0"
-        },
-        {
-          "sha": "b77a3b0",
-          "message": "Aperture: Update kotlin deps to match AOSP 16",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 25 02:34:26 2025 +0200",
-          "timestamp": 1758760466,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b77a3b0"
-        },
-        {
-          "sha": "a64ab07",
-          "message": "Aperture: Update SDK to 36",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 25 02:34:25 2025 +0200",
-          "timestamp": 1758760465,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a64ab07"
-        },
-        {
-          "sha": "2f10484",
-          "message": "Automatic translation import",
-          "author": "LineageOS Infra",
-          "date": "Wed Sep 24 20:06:38 2025 +0000",
-          "timestamp": 1758744398,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/2f10484"
-        },
-        {
-          "sha": "e0f3395",
-          "message": "Aperture: Update generatebp to v1.28",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:23:53 2025 +0200",
-          "timestamp": 1758734633,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e0f3395"
-        },
-        {
-          "sha": "a650697",
-          "message": "Aperture: Update Gradle wrapper and AGP",
-          "author": "Sebastiano Barezzi",
-          "date": "Wed Sep 24 19:19:51 2025 +0200",
-          "timestamp": 1758734391,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a650697"
-        },
-        {
-          "sha": "d73c5b7",
-          "message": "Aperture: Rework icons island",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 00:11:58 2025 +0200",
-          "timestamp": 1758147118,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d73c5b7"
-        },
-        {
-          "sha": "31010c9",
-          "message": "Aperture: Make thermal status an enum class",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 18 00:03:50 2025 +0200",
-          "timestamp": 1758146630,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/31010c9"
-        },
-        {
-          "sha": "b173097",
-          "message": "Aperture: No more jail escape",
-          "author": "Luca Stefani",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b173097"
-        },
-        {
-          "sha": "1d9fd29",
-          "message": "Aperture: Update CameraX",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1d9fd29"
-        },
-        {
-          "sha": "94203e0",
-          "message": "Aperture: Move resource IDs out of VideoDynamicRange",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/94203e0"
-        },
-        {
-          "sha": "6ec498c",
-          "message": "Aperture: QrBottomSheetDialog: Move to SimpleListAdapter",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/6ec498c"
-        },
-        {
-          "sha": "c963d17",
-          "message": "Aperture: Setup RecyclerView and our utils",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 21:46:59 2025 +0200",
-          "timestamp": 1757965619,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c963d17"
-        },
-        {
-          "sha": "690ff0f",
-          "message": "Aperture: Move UI classes into an additional subpackages",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 16:27:43 2025 +0200",
-          "timestamp": 1757946463,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/690ff0f"
-        },
-        {
-          "sha": "b4d7a2a",
-          "message": "Aperture: Reformat code",
-          "author": "Sebastiano Barezzi",
-          "date": "Mon Sep 15 16:24:58 2025 +0200",
-          "timestamp": 1757946298,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b4d7a2a"
-        },
-        {
-          "sha": "49c70e3",
-          "message": "Aperture: Use constant timestamp for RAW+JPEG",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 18:36:24 2025 +0200",
-          "timestamp": 1757608584,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/49c70e3"
-        },
-        {
-          "sha": "e648a3c",
-          "message": "Aperture: Add date taken metadata",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 18:30:21 2025 +0200",
-          "timestamp": 1757608221,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e648a3c"
-        },
-        {
-          "sha": "d35afdb",
-          "message": "Aperture: Force set gallery visibility on load success",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 16:48:38 2025 +0200",
-          "timestamp": 1757602118,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d35afdb"
-        },
-        {
-          "sha": "c55d653",
-          "message": "Aperture: Support JPEG Ultra HDR/RAW/RAW+JPEG capture",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 16:48:38 2025 +0200",
-          "timestamp": 1757602118,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c55d653"
-        },
-        {
-          "sha": "abb7aa1",
-          "message": "Aperture: Update CameraX to 1.5.0",
-          "author": "Luca Stefani",
-          "date": "Thu Sep 11 16:47:18 2025 +0200",
-          "timestamp": 1757602038,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/abb7aa1"
-        },
-        {
-          "sha": "d7fa247",
-          "message": "Aperture: CameraViewModel: Inline useless return",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 02:11:59 2025 +0200",
-          "timestamp": 1757549519,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d7fa247"
-        },
-        {
-          "sha": "84c6cbf",
-          "message": "Aperture: Move Camera2 options to CameraConfiguration",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 02:07:58 2025 +0200",
-          "timestamp": 1757549278,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/84c6cbf"
-        },
-        {
-          "sha": "f8a95b3",
-          "message": "Aperture: CameraConfiguration: Drop `clone` method",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 02:07:19 2025 +0200",
-          "timestamp": 1757549239,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/f8a95b3"
-        },
-        {
-          "sha": "bac8471",
-          "message": "Aperture: Recreate camera configuration on user preference changes",
-          "author": "Sebastiano Barezzi",
-          "date": "Thu Sep 11 01:59:18 2025 +0200",
-          "timestamp": 1757548758,
-          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/bac8471"
-        }
-      ]
-    },
-    {
       "name": "platform_device_lineage_sepolicy",
       "path": "device/lineage/sepolicy",
       "repo_url": "https://github.com/LumineDroid/platform_device_lineage_sepolicy",
@@ -6870,6 +6573,239 @@
           "date": "Wed Oct 15 18:13:48 2025 +0000",
           "timestamp": 1760552028,
           "url": "https://github.com/LumineDroid/platform_device_lineage_sepolicy/commit/6810925"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Aperture",
+      "path": "packages/apps/Aperture",
+      "repo_url": "https://github.com/LineageOS/android_packages_apps_Aperture",
+      "remote": "github",
+      "commit_count": 28,
+      "commits": [
+        {
+          "sha": "518af25",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Mon Dec 1 14:53:12 2025 +0000",
+          "timestamp": 1764600792,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/518af25"
+        },
+        {
+          "sha": "5dff58d",
+          "message": "Aperture: Use colorError from appcompat",
+          "author": "Michael Bestas",
+          "date": "Fri Nov 21 13:06:52 2025 +0200",
+          "timestamp": 1763723212,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/5dff58d"
+        },
+        {
+          "sha": "825b7f6",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 15 18:01:56 2025 +0000",
+          "timestamp": 1763229716,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/825b7f6"
+        },
+        {
+          "sha": "998f355",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Sat Nov 1 19:48:36 2025 +0000",
+          "timestamp": 1762026516,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/998f355"
+        },
+        {
+          "sha": "c9f9831",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Thu Oct 16 01:24:22 2025 +0000",
+          "timestamp": 1760577862,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c9f9831"
+        },
+        {
+          "sha": "482abce",
+          "message": "Aperture: Configure camera after we have camera permissions",
+          "author": "Sebastiano Barezzi",
+          "date": "Sun Oct 12 15:47:51 2025 +0200",
+          "timestamp": 1760276871,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/482abce"
+        },
+        {
+          "sha": "90c6cd2",
+          "message": "Aperture: Fix RAW capture when permissions are granted after app launch",
+          "author": "Sebastiano Barezzi",
+          "date": "Sat Oct 11 16:51:48 2025 +0000",
+          "timestamp": 1760201508,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/90c6cd2"
+        },
+        {
+          "sha": "c30b723",
+          "message": "Aperture: Update CameraX to 1.5.1",
+          "author": "LuK1337",
+          "date": "Wed Oct 8 22:04:41 2025 +0200",
+          "timestamp": 1759953881,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c30b723"
+        },
+        {
+          "sha": "58d57e0",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Oct 1 19:38:02 2025 +0000",
+          "timestamp": 1759347482,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/58d57e0"
+        },
+        {
+          "sha": "b77a3b0",
+          "message": "Aperture: Update kotlin deps to match AOSP 16",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 25 02:34:26 2025 +0200",
+          "timestamp": 1758760466,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b77a3b0"
+        },
+        {
+          "sha": "a64ab07",
+          "message": "Aperture: Update SDK to 36",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 25 02:34:25 2025 +0200",
+          "timestamp": 1758760465,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a64ab07"
+        },
+        {
+          "sha": "2f10484",
+          "message": "Automatic translation import",
+          "author": "LineageOS Infra",
+          "date": "Wed Sep 24 20:06:38 2025 +0000",
+          "timestamp": 1758744398,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/2f10484"
+        },
+        {
+          "sha": "e0f3395",
+          "message": "Aperture: Update generatebp to v1.28",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:23:53 2025 +0200",
+          "timestamp": 1758734633,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e0f3395"
+        },
+        {
+          "sha": "a650697",
+          "message": "Aperture: Update Gradle wrapper and AGP",
+          "author": "Sebastiano Barezzi",
+          "date": "Wed Sep 24 19:19:51 2025 +0200",
+          "timestamp": 1758734391,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/a650697"
+        },
+        {
+          "sha": "d73c5b7",
+          "message": "Aperture: Rework icons island",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 00:11:58 2025 +0200",
+          "timestamp": 1758147118,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d73c5b7"
+        },
+        {
+          "sha": "31010c9",
+          "message": "Aperture: Make thermal status an enum class",
+          "author": "Sebastiano Barezzi",
+          "date": "Thu Sep 18 00:03:50 2025 +0200",
+          "timestamp": 1758146630,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/31010c9"
+        },
+        {
+          "sha": "b173097",
+          "message": "Aperture: No more jail escape",
+          "author": "Luca Stefani",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b173097"
+        },
+        {
+          "sha": "1d9fd29",
+          "message": "Aperture: Update CameraX",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/1d9fd29"
+        },
+        {
+          "sha": "94203e0",
+          "message": "Aperture: Move resource IDs out of VideoDynamicRange",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/94203e0"
+        },
+        {
+          "sha": "6ec498c",
+          "message": "Aperture: QrBottomSheetDialog: Move to SimpleListAdapter",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/6ec498c"
+        },
+        {
+          "sha": "c963d17",
+          "message": "Aperture: Setup RecyclerView and our utils",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 21:46:59 2025 +0200",
+          "timestamp": 1757965619,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c963d17"
+        },
+        {
+          "sha": "690ff0f",
+          "message": "Aperture: Move UI classes into an additional subpackages",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 16:27:43 2025 +0200",
+          "timestamp": 1757946463,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/690ff0f"
+        },
+        {
+          "sha": "b4d7a2a",
+          "message": "Aperture: Reformat code",
+          "author": "Sebastiano Barezzi",
+          "date": "Mon Sep 15 16:24:58 2025 +0200",
+          "timestamp": 1757946298,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/b4d7a2a"
+        },
+        {
+          "sha": "49c70e3",
+          "message": "Aperture: Use constant timestamp for RAW+JPEG",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 18:36:24 2025 +0200",
+          "timestamp": 1757608584,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/49c70e3"
+        },
+        {
+          "sha": "e648a3c",
+          "message": "Aperture: Add date taken metadata",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 18:30:21 2025 +0200",
+          "timestamp": 1757608221,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/e648a3c"
+        },
+        {
+          "sha": "d35afdb",
+          "message": "Aperture: Force set gallery visibility on load success",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 16:48:38 2025 +0200",
+          "timestamp": 1757602118,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/d35afdb"
+        },
+        {
+          "sha": "c55d653",
+          "message": "Aperture: Support JPEG Ultra HDR/RAW/RAW+JPEG capture",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 16:48:38 2025 +0200",
+          "timestamp": 1757602118,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/c55d653"
+        },
+        {
+          "sha": "abb7aa1",
+          "message": "Aperture: Update CameraX to 1.5.0",
+          "author": "Luca Stefani",
+          "date": "Thu Sep 11 16:47:18 2025 +0200",
+          "timestamp": 1757602038,
+          "url": "https://github.com/LineageOS/android_packages_apps_Aperture/commit/abb7aa1"
         }
       ]
     },
@@ -9080,111 +9016,6 @@
       ]
     },
     {
-      "name": "platform_manifest",
-      "path": "manifest",
-      "repo_url": "https://github.com/LumineDroid/platform_manifest",
-      "remote": "lumine",
-      "commit_count": 12,
-      "commits": [
-        {
-          "sha": "91d861b",
-          "message": "manifest: Track our vendor gms",
-          "author": "itswill00",
-          "date": "Fri Dec 5 11:39:23 2025 +0700",
-          "timestamp": 1764909563,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/91d861b"
-        },
-        {
-          "sha": "1db0074",
-          "message": "manifest: Initial LumineDroid",
-          "author": "Hexaboo",
-          "date": "Thu Nov 20 01:05:24 2025 +0000",
-          "timestamp": 1763600724,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/1db0074"
-        },
-        {
-          "sha": "afc3dd0",
-          "message": "manifest: Unfork system_bpf",
-          "author": "Thomas Turner",
-          "date": "Thu Nov 13 19:36:08 2025 +0000",
-          "timestamp": 1763062568,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/afc3dd0"
-        },
-        {
-          "sha": "06332e0",
-          "message": "manifest: Track vendor/apn",
-          "author": "LuK1337",
-          "date": "Mon Nov 10 22:04:51 2025 +0100",
-          "timestamp": 1762808691,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/06332e0"
-        },
-        {
-          "sha": "9548d9e",
-          "message": "manifest: Forks for recommended patches",
-          "author": "Michael Bestas",
-          "date": "Fri Sep 26 14:53:05 2025 +0300",
-          "timestamp": 1758887585,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/9548d9e"
-        },
-        {
-          "sha": "c088fe2",
-          "message": "lineage: Restore os_pickup_aosp.mk",
-          "author": "LuK1337",
-          "date": "Tue Sep 23 23:29:59 2025 +0200",
-          "timestamp": 1758662999,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/c088fe2"
-        },
-        {
-          "sha": "7593c1a",
-          "message": "lineage: Disable AOSP msm8996/8 & QCOM msm8996 HALs",
-          "author": "Michael Bestas",
-          "date": "Tue Sep 23 18:31:21 2025 +0300",
-          "timestamp": 1758641481,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/7593c1a"
-        },
-        {
-          "sha": "32fadd5",
-          "message": "manifest: September 2025 Security Update",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 14 13:01:58 2025 +0300",
-          "timestamp": 1757844118,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/32fadd5"
-        },
-        {
-          "sha": "2eb6f1c",
-          "message": "manifest: Remove sdm845 HAL guards",
-          "author": "Michael Bestas",
-          "date": "Sun Sep 14 13:01:58 2025 +0300",
-          "timestamp": 1757844118,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/2eb6f1c"
-        },
-        {
-          "sha": "ec453d1",
-          "message": "manifest: Switch to our fork of athletico ST HAL",
-          "author": "Michael Bestas",
-          "date": "Thu Sep 11 20:09:40 2025 +0300",
-          "timestamp": 1757610580,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/ec453d1"
-        },
-        {
-          "sha": "c11ed59",
-          "message": "manifest: Remove sm8150 HAL guards",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 21:11:31 2025 +0300",
-          "timestamp": 1757527891,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/c11ed59"
-        },
-        {
-          "sha": "257de19",
-          "message": "manifest: Remove sm7250 HAL guards",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 09:41:21 2025 +0300",
-          "timestamp": 1757486481,
-          "url": "https://github.com/LumineDroid/platform_manifest/commit/257de19"
-        }
-      ]
-    },
-    {
       "name": "platform_packages_apps_Updater",
       "path": "packages/apps/Updater",
       "repo_url": "https://github.com/LumineDroid/platform_packages_apps_Updater",
@@ -9472,6 +9303,95 @@
           "date": "Mon Sep 15 06:01:32 2025 -0700",
           "timestamp": 1757941292,
           "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commit/154551e"
+        }
+      ]
+    },
+    {
+      "name": "platform_manifest",
+      "path": "manifest",
+      "repo_url": "https://github.com/LumineDroid/platform_manifest",
+      "remote": "lumine",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "91d861b",
+          "message": "manifest: Track our vendor gms",
+          "author": "itswill00",
+          "date": "Fri Dec 5 11:39:23 2025 +0700",
+          "timestamp": 1764909563,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/91d861b"
+        },
+        {
+          "sha": "1db0074",
+          "message": "manifest: Initial LumineDroid",
+          "author": "Hexaboo",
+          "date": "Thu Nov 20 01:05:24 2025 +0000",
+          "timestamp": 1763600724,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/1db0074"
+        },
+        {
+          "sha": "afc3dd0",
+          "message": "manifest: Unfork system_bpf",
+          "author": "Thomas Turner",
+          "date": "Thu Nov 13 19:36:08 2025 +0000",
+          "timestamp": 1763062568,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/afc3dd0"
+        },
+        {
+          "sha": "06332e0",
+          "message": "manifest: Track vendor/apn",
+          "author": "LuK1337",
+          "date": "Mon Nov 10 22:04:51 2025 +0100",
+          "timestamp": 1762808691,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/06332e0"
+        },
+        {
+          "sha": "9548d9e",
+          "message": "manifest: Forks for recommended patches",
+          "author": "Michael Bestas",
+          "date": "Fri Sep 26 14:53:05 2025 +0300",
+          "timestamp": 1758887585,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/9548d9e"
+        },
+        {
+          "sha": "c088fe2",
+          "message": "lineage: Restore os_pickup_aosp.mk",
+          "author": "LuK1337",
+          "date": "Tue Sep 23 23:29:59 2025 +0200",
+          "timestamp": 1758662999,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/c088fe2"
+        },
+        {
+          "sha": "7593c1a",
+          "message": "lineage: Disable AOSP msm8996/8 & QCOM msm8996 HALs",
+          "author": "Michael Bestas",
+          "date": "Tue Sep 23 18:31:21 2025 +0300",
+          "timestamp": 1758641481,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/7593c1a"
+        },
+        {
+          "sha": "32fadd5",
+          "message": "manifest: September 2025 Security Update",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 14 13:01:58 2025 +0300",
+          "timestamp": 1757844118,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/32fadd5"
+        },
+        {
+          "sha": "2eb6f1c",
+          "message": "manifest: Remove sdm845 HAL guards",
+          "author": "Michael Bestas",
+          "date": "Sun Sep 14 13:01:58 2025 +0300",
+          "timestamp": 1757844118,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/2eb6f1c"
+        },
+        {
+          "sha": "ec453d1",
+          "message": "manifest: Switch to our fork of athletico ST HAL",
+          "author": "Michael Bestas",
+          "date": "Thu Sep 11 20:09:40 2025 +0300",
+          "timestamp": 1757610580,
+          "url": "https://github.com/LumineDroid/platform_manifest/commit/ec453d1"
         }
       ]
     },
@@ -9869,79 +9789,6 @@
           "date": "Wed Oct 29 00:30:15 2025 +0000",
           "timestamp": 1761697815,
           "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commit/e39b56b"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_sm8150_display",
-      "path": "hardware/qcom/sm8150/display",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display",
-      "remote": "github",
-      "commit_count": 8,
-      "commits": [
-        {
-          "sha": "c13de98",
-          "message": "Convert remaining Android.mk to blueprint",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 19:31:29 2025 +0300",
-          "timestamp": 1757521889,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/c13de98"
-        },
-        {
-          "sha": "ad7078c",
-          "message": "sdm: Convert hwcomposer.qcom to soong",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/ad7078c"
-        },
-        {
-          "sha": "2a9e0e9",
-          "message": "Revert \"sdm/hwc: add display indices property for client id init\"",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/2a9e0e9"
-        },
-        {
-          "sha": "49c36ba",
-          "message": "sdm: Remove use_hwc2 conditional",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/49c36ba"
-        },
-        {
-          "sha": "99e4d3f",
-          "message": "Convert libhistogram/libsdmcore to blueprint",
-          "author": "LuK1337",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/99e4d3f"
-        },
-        {
-          "sha": "0278765",
-          "message": "display: Squashed revert of hypervisor changes",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/0278765"
-        },
-        {
-          "sha": "cd069e1",
-          "message": "Convert gpu_tonemapper to blueprint",
-          "author": "EndCredits",
-          "date": "Wed Sep 10 18:15:28 2025 +0300",
-          "timestamp": 1757517328,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cd069e1"
-        },
-        {
-          "sha": "cf6f59d",
-          "message": "Remove unused libcopybit sources",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 17:10:59 2025 +0300",
-          "timestamp": 1757513459,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_display/commit/cf6f59d"
         }
       ]
     },
@@ -10775,63 +10622,6 @@
       ]
     },
     {
-      "name": "platform_packages_apps_GameSpace",
-      "path": "packages/apps/GameSpace",
-      "repo_url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace",
-      "remote": "lumine",
-      "commit_count": 6,
-      "commits": [
-        {
-          "sha": "ef00bbd",
-          "message": "Revert \"Revert \"Revert \"Revert \"Remove unimplemented notification function\"\"\"\"",
-          "author": "Hexaboo",
-          "date": "Sat Oct 25 06:23:38 2025 +0000",
-          "timestamp": 1761373418,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/ef00bbd"
-        },
-        {
-          "sha": "cc6c940",
-          "message": "GameSpace: Adapt for THREE_FINGER_GESTURE",
-          "author": "Hexaboo",
-          "date": "Sat Oct 25 04:41:34 2025 +0000",
-          "timestamp": 1761367294,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/cc6c940"
-        },
-        {
-          "sha": "19c1b26",
-          "message": "GameSpace: Fix reset icon in CustomSeekBarPreference in RTL layout",
-          "author": "Pranav Vashi",
-          "date": "Sat Oct 25 04:34:42 2025 +0000",
-          "timestamp": 1761366882,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/19c1b26"
-        },
-        {
-          "sha": "3c33ba6",
-          "message": "GameSpace: Add material icon",
-          "author": "Mohammad Hasan Keramat J",
-          "date": "Sat Oct 25 04:34:26 2025 +0000",
-          "timestamp": 1761366866,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/3c33ba6"
-        },
-        {
-          "sha": "3c01f53",
-          "message": "GameSpace: Add callChangeListener() for all changes in CustomSeekBarPreference",
-          "author": "Pranav Vashi",
-          "date": "Wed Sep 10 09:49:18 2025 +0530",
-          "timestamp": 1757477958,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/3c01f53"
-        },
-        {
-          "sha": "08f9fdb",
-          "message": "GameSpace: Update view for Quick start apps dialog",
-          "author": "Pranav Vashi",
-          "date": "Wed Sep 10 09:41:37 2025 +0530",
-          "timestamp": 1757477497,
-          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/08f9fdb"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_build_release",
       "path": "build/release",
       "repo_url": "https://github.com/LineageOS/android_build_release",
@@ -11073,104 +10863,6 @@
           "date": "Fri Sep 12 17:59:54 2025 +0300",
           "timestamp": 1757689194,
           "url": "https://github.com/LineageOS/android_packages_modules_Wifi/commit/c4a1c5f89"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
-      "path": "vendor/qcom/opensource/commonsys-intf/audio",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "7d983f8",
-          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:16:04 2025 +0200",
-          "timestamp": 1762607764,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/7d983f8"
-        },
-        {
-          "sha": "ed621aa",
-          "message": "Merge e0e9cc54a9a19d56bc36303b2a26efb59695e1b1 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Thu Sep 25 23:58:05 2025 -0700",
-          "timestamp": 1758869885,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/ed621aa"
-        },
-        {
-          "sha": "2b3b2aa",
-          "message": "Update device Id AIDL interface files",
-          "author": "Kunlei Zhang",
-          "date": "Tue Sep 16 01:49:45 2025 -0700",
-          "timestamp": 1758012585,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/2b3b2aa"
-        },
-        {
-          "sha": "8533503",
-          "message": "Merge 0524ac5c1fe11081f89aa6bea5b4e26c7eff0eba on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Sep 14 20:15:54 2025 -0700",
-          "timestamp": 1757906154,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/8533503"
-        },
-        {
-          "sha": "e0e9cc5",
-          "message": "Update device Id AIDL interface files",
-          "author": "Kunlei Zhang",
-          "date": "Wed Sep 10 12:18:36 2025 +0800",
-          "timestamp": 1757477916,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/e0e9cc5"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
-      "path": "hardware/qcom-caf/sm8650/dataipa",
-      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
-      "remote": "github",
-      "commit_count": 5,
-      "commits": [
-        {
-          "sha": "5f520e7",
-          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:24:49 2025 +0200",
-          "timestamp": 1762608289,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
-        },
-        {
-          "sha": "0c843bc",
-          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Sun Oct 26 01:33:25 2025 -0700",
-          "timestamp": 1761467605,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
-        },
-        {
-          "sha": "da7cc67",
-          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Tue Oct 7 14:34:38 2025 -0700",
-          "timestamp": 1759872878,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
-        },
-        {
-          "sha": "ff41e63",
-          "message": "msm: ipa3: Use read memory barrier before reading events",
-          "author": "Chaitanya Pratapa",
-          "date": "Mon Sep 15 22:10:59 2025 -0700",
-          "timestamp": 1757999459,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
-        },
-        {
-          "sha": "2e2889d",
-          "message": "Merge 29d1fd0d9800b65fedb65455eda71d6792ca02bd on remote branch",
-          "author": "Linux Build Service Account",
-          "date": "Wed Sep 10 11:29:02 2025 -0700",
-          "timestamp": 1757528942,
-          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/2e2889d"
         }
       ]
     },
@@ -11503,6 +11195,88 @@
       ]
     },
     {
+      "name": "LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
+      "path": "vendor/qcom/opensource/commonsys-intf/audio",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "7d983f8",
+          "message": "Merge tag 'LA.QSSI.16.0.r1-10300-qssi.0' into staging/lineage-23.0_merge-LA.QSSI.16.0.r1-10300-qssi.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:16:04 2025 +0200",
+          "timestamp": 1762607764,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/7d983f8"
+        },
+        {
+          "sha": "ed621aa",
+          "message": "Merge e0e9cc54a9a19d56bc36303b2a26efb59695e1b1 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Thu Sep 25 23:58:05 2025 -0700",
+          "timestamp": 1758869885,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/ed621aa"
+        },
+        {
+          "sha": "2b3b2aa",
+          "message": "Update device Id AIDL interface files",
+          "author": "Kunlei Zhang",
+          "date": "Tue Sep 16 01:49:45 2025 -0700",
+          "timestamp": 1758012585,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/2b3b2aa"
+        },
+        {
+          "sha": "8533503",
+          "message": "Merge 0524ac5c1fe11081f89aa6bea5b4e26c7eff0eba on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Sep 14 20:15:54 2025 -0700",
+          "timestamp": 1757906154,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf/commit/8533503"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_vendor_qcom_opensource_dataipa",
+      "path": "hardware/qcom-caf/sm8650/dataipa",
+      "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa",
+      "remote": "github",
+      "commit_count": 4,
+      "commits": [
+        {
+          "sha": "5f520e7",
+          "message": "Merge tag 'LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0' into staging/lineage-23.0_merge-LA.VENDOR.14.3.0.r1-22400-lanai.QSSI15.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:24:49 2025 +0200",
+          "timestamp": 1762608289,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/5f520e7"
+        },
+        {
+          "sha": "0c843bc",
+          "message": "Merge ff41e634ac965f422ba6bd3ed3c4bda937d4368b on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Sun Oct 26 01:33:25 2025 -0700",
+          "timestamp": 1761467605,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/0c843bc"
+        },
+        {
+          "sha": "da7cc67",
+          "message": "Merge c2ca91b566edd1d4d20fdb9923b676c09feede68 on remote branch",
+          "author": "Linux Build Service Account",
+          "date": "Tue Oct 7 14:34:38 2025 -0700",
+          "timestamp": 1759872878,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/da7cc67"
+        },
+        {
+          "sha": "ff41e63",
+          "message": "msm: ipa3: Use read memory barrier before reading events",
+          "author": "Chaitanya Pratapa",
+          "date": "Mon Sep 15 22:10:59 2025 -0700",
+          "timestamp": 1757999459,
+          "url": "https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commit/ff41e63"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
       "path": "vendor/qcom/opensource/commonsys-intf/display",
       "repo_url": "https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
@@ -11585,35 +11359,43 @@
       ]
     },
     {
-      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "path": "external/chromium-webview/prebuilt/arm",
-      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
-      "remote": "github",
-      "commit_count": 3,
+      "name": "platform_packages_apps_GameSpace",
+      "path": "packages/apps/GameSpace",
+      "repo_url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace",
+      "remote": "lumine",
+      "commit_count": 4,
       "commits": [
         {
-          "sha": "6f94e76",
-          "message": "Update Chromium Webview arm to 142.0.7444.138",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Nov 8 08:57:57 2025 -0700",
-          "timestamp": 1762617477,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+          "sha": "ef00bbd",
+          "message": "Revert \"Revert \"Revert \"Revert \"Remove unimplemented notification function\"\"\"\"",
+          "author": "Hexaboo",
+          "date": "Sat Oct 25 06:23:38 2025 +0000",
+          "timestamp": 1761373418,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/ef00bbd"
         },
         {
-          "sha": "10dcbc3",
-          "message": "Update Chromium Webview arm to 141.0.7390.111",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Oct 18 07:57:11 2025 -0600",
-          "timestamp": 1760795831,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+          "sha": "cc6c940",
+          "message": "GameSpace: Adapt for THREE_FINGER_GESTURE",
+          "author": "Hexaboo",
+          "date": "Sat Oct 25 04:41:34 2025 +0000",
+          "timestamp": 1761367294,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/cc6c940"
         },
         {
-          "sha": "35d15d3",
-          "message": "Update Chromium Webview arm to 140.0.7339.207",
-          "author": "Kevin F. Haggerty",
-          "date": "Sat Sep 27 08:22:39 2025 -0600",
-          "timestamp": 1758982959,
-          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
+          "sha": "19c1b26",
+          "message": "GameSpace: Fix reset icon in CustomSeekBarPreference in RTL layout",
+          "author": "Pranav Vashi",
+          "date": "Sat Oct 25 04:34:42 2025 +0000",
+          "timestamp": 1761366882,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/19c1b26"
+        },
+        {
+          "sha": "3c33ba6",
+          "message": "GameSpace: Add material icon",
+          "author": "Mohammad Hasan Keramat J",
+          "date": "Sat Oct 25 04:34:26 2025 +0000",
+          "timestamp": 1761366866,
+          "url": "https://github.com/LumineDroid/platform_packages_apps_GameSpace/commit/3c33ba6"
         }
       ]
     },
@@ -11647,6 +11429,39 @@
           "date": "Fri Sep 26 09:55:19 2025 -0600",
           "timestamp": 1758902119,
           "url": "https://github.com/LineageOS/android_external_chromium-webview_patches/commit/22fb1dd"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "path": "external/chromium-webview/prebuilt/arm",
+      "repo_url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+      "remote": "github",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "6f94e76",
+          "message": "Update Chromium Webview arm to 142.0.7444.138",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Nov 8 08:57:57 2025 -0700",
+          "timestamp": 1762617477,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/6f94e76"
+        },
+        {
+          "sha": "10dcbc3",
+          "message": "Update Chromium Webview arm to 141.0.7390.111",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Oct 18 07:57:11 2025 -0600",
+          "timestamp": 1760795831,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/10dcbc3"
+        },
+        {
+          "sha": "35d15d3",
+          "message": "Update Chromium Webview arm to 140.0.7339.207",
+          "author": "Kevin F. Haggerty",
+          "date": "Sat Sep 27 08:22:39 2025 -0600",
+          "timestamp": 1758982959,
+          "url": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm/commit/35d15d3"
         }
       ]
     },
@@ -11779,39 +11594,6 @@
           "date": "Fri Sep 26 09:53:38 2025 +0530",
           "timestamp": 1758860618,
           "url": "https://github.com/LineageOS/android_hardware_interfaces/commit/25fab9763"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_audio-ar",
-      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
-      "remote": "github",
-      "commit_count": 3,
-      "commits": [
-        {
-          "sha": "0b70a90",
-          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
-          "author": "Michael Bestas",
-          "date": "Sat Nov 8 15:23:04 2025 +0200",
-          "timestamp": 1762608184,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
-        },
-        {
-          "sha": "06775df",
-          "message": "hal: Add missing headers for ultrasound_proximity",
-          "author": "AdarshGrewal",
-          "date": "Sat Sep 27 17:53:32 2025 +0200",
-          "timestamp": 1758988412,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/06775df"
-        },
-        {
-          "sha": "3bfcebd",
-          "message": "Merge remote-tracking branch 'origin/audio-android-hal.lnx.3.0.c1' into audio-android-hal.lnx.1.0.r2-rel",
-          "author": "ukurukur",
-          "date": "Thu Sep 11 00:55:19 2025 +0530",
-          "timestamp": 1757532319,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/3bfcebd"
         }
       ]
     },
@@ -12064,6 +11846,31 @@
       ]
     },
     {
+      "name": "LineageOS/android_hardware_qcom-caf_common",
+      "path": "hardware/qcom-caf/common",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "d4f02ca",
+          "message": "qcom: Declare some prebuilt qti radio interfaces",
+          "author": "AnierinB",
+          "date": "Tue Dec 2 01:40:13 2025 +0000",
+          "timestamp": 1764639613,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/d4f02ca"
+        },
+        {
+          "sha": "95c5d93",
+          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
+          "author": "Ankit Mishra",
+          "date": "Mon Nov 3 12:33:59 2025 +0000",
+          "timestamp": 1762173239,
+          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
+        }
+      ]
+    },
+    {
       "name": "LineageOS/android_hardware_qcom_audio",
       "path": "hardware/qcom/audio",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio",
@@ -12085,6 +11892,31 @@
           "date": "Sun Sep 14 15:31:32 2025 +0300",
           "timestamp": 1757853092,
           "url": "https://github.com/LineageOS/android_hardware_qcom_audio/commit/c895c94"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS/android_hardware_qcom_audio-ar",
+      "path": "hardware/qcom-caf/sm8450/audio/primary-hal",
+      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
+      "remote": "github",
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "0b70a90",
+          "message": "Merge tag 'LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0' into staging/lineage-23.0_merge-LA.VENDOR.1.0.r1-28700-WAIPIO.QSSI16.0",
+          "author": "Michael Bestas",
+          "date": "Sat Nov 8 15:23:04 2025 +0200",
+          "timestamp": 1762608184,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/0b70a90"
+        },
+        {
+          "sha": "06775df",
+          "message": "hal: Add missing headers for ultrasound_proximity",
+          "author": "AdarshGrewal",
+          "date": "Sat Sep 27 17:53:32 2025 +0200",
+          "timestamp": 1758988412,
+          "url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar/commit/06775df"
         }
       ]
     },
@@ -12541,23 +12373,6 @@
       ]
     },
     {
-      "name": "LineageOS/android_hardware_qcom-caf_common",
-      "path": "hardware/qcom-caf/common",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom-caf_common",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "95c5d93",
-          "message": "fcm: Add entry for version 2 of ASR AIDL interface",
-          "author": "Ankit Mishra",
-          "date": "Mon Nov 3 12:33:59 2025 +0000",
-          "timestamp": 1762173239,
-          "url": "https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/95c5d93"
-        }
-      ]
-    },
-    {
       "name": "LineageOS/android_hardware_qcom_audio-ar",
       "path": "hardware/qcom-caf/sm8550/audio/primary-hal",
       "repo_url": "https://github.com/LineageOS/android_hardware_qcom_audio-ar",
@@ -12622,23 +12437,6 @@
           "date": "Sat Nov 8 15:27:59 2025 +0200",
           "timestamp": 1762608479,
           "url": "https://github.com/LineageOS/android_hardware_qcom_thermal/commit/a4298a2"
-        }
-      ]
-    },
-    {
-      "name": "LineageOS/android_hardware_qcom_sm8150_gps",
-      "path": "hardware/qcom/sm8150/gps",
-      "repo_url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps",
-      "remote": "github",
-      "commit_count": 1,
-      "commits": [
-        {
-          "sha": "c102eca",
-          "message": "Remove obsolete os_pickup.{bp,mk}",
-          "author": "Michael Bestas",
-          "date": "Wed Sep 10 16:23:52 2025 +0300",
-          "timestamp": 1757510632,
-          "url": "https://github.com/LineageOS/android_hardware_qcom_sm8150_gps/commit/c102eca"
         }
       ]
     },
